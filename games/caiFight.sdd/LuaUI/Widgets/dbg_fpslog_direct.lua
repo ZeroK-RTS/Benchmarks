@@ -5,7 +5,7 @@ function widget:GetInfo()
     author    = "Licho",
     date      = "2013",
     layer     = 0,
-    enabled   = true  --  loaded by default	
+    enabled   = true,  --  loaded by default
   }
 end
 
