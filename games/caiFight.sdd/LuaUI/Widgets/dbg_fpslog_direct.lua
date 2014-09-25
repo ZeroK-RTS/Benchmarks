@@ -16,17 +16,26 @@ local normalSpeedTime = LOG_START - 30*5
 
 local debugView = false
 
+local setFast = false
+
 local spGetTimer = Spring.GetTimer 
 local spDiffTimers = Spring.DiffTimers
 local spGetAllUnits = Spring.GetAllUnits
 
-local startTimer
+local startTimer = spGetTimer()
+
+function widget:Initialize()
+	Spring.Echo("Logger Initialized")
+end
 
 function widget:Update(dt)
-	if not gameStart then 
-		return 
-	end
 	local frame = Spring.GetGameFrame() 
+	if frame > 0 and not setFast then
+		startTimer = spGetTimer()
+		Spring.SendCommands("setminspeed 20")
+		Spring.SendCommands("setmaxspeed 20")
+		setFast = true
+	end
 	if normalSpeedTime and frame > normalSpeedTime then
 		Spring.SendCommands("setminspeed 1")
 		Spring.SendCommands("setmaxspeed 1")
@@ -55,10 +64,4 @@ function widget:Update(dt)
 	end
 end
 
-function widget:GameStart()
-	startTimer = spGetTimer()
-	Spring.SendCommands("setminspeed 20")
-	Spring.SendCommands("setmaxspeed 20")
-	gameStart = true
-end
 
