@@ -39,7 +39,7 @@ function widget:Update(dt)
 	if normalSpeedTime and frame > normalSpeedTime then
 		Spring.SendCommands("setminspeed 1")
 		Spring.SendCommands("setmaxspeed 1")
-		Spring.SendCommands("screenshot")
+		--Spring.SendCommands("screenshot")
 		
 		local units = spGetAllUnits()
 		Spring.Echo("!transmitlobby units_start: " .. #units)
@@ -57,7 +57,7 @@ function widget:Update(dt)
 		debugView = true
 	end
 	if (frame > EXIT_TIME) then
-		Spring.SendCommands("screenshot")
+		--Spring.SendCommands("screenshot")
 		local units = spGetAllUnits()
 		Spring.Echo("!transmitlobby units_end: " .. #units)
 		Spring.SendCommands("quit")
