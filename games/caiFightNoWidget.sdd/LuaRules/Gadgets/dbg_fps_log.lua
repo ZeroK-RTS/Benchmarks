@@ -7,7 +7,7 @@ function gadget:GetInfo()
     date      = "2013",
     license   = "GNU GPL, v2 or later",
     layer     = 1,
-    enabled   = true -- loaded by default?
+    enabled   = not (Game.version:find('91.0') == 1),
   }
 end 
 
@@ -17,14 +17,7 @@ local spDiffTimers = Spring.DiffTimers
 local LOG_START = 30*60*8
 local LOG_END = LOG_START + 60*30
 
-if (gadgetHandler:IsSyncedCode()) then
-
-function gadget:GameFrame(gf)
-	SendToUnsynced("gameFrame", gf)
-end
-
-
-else 
+if not (gadgetHandler:IsSyncedCode()) then
 
 local frameTimer= spGetTimer()
 local gfTimer = spGetTimer()
@@ -40,7 +33,7 @@ function gadget:Update()
 	frameTimer = newTimer
 end
 
-local function gameFrame(_, gf)
+function gadget:GameFrame(gf)
 	if gf > lastGameFrame then
 		local newTimer = spGetTimer()
 		local frame = Spring.GetGameFrame()
@@ -51,9 +44,5 @@ local function gameFrame(_, gf)
 		gfTimer = newTimer
 	end
 end 
-
-function gadget:Initialize()
-    gadgetHandler:AddSyncAction("gameFrame", gameFrame)
-end
 
 end

@@ -1,13 +1,13 @@
 
 function gadget:GetInfo()
   return {
-    name      = "Gadget_Fps_Log",
+    name      = "Gadget_Fps_Log_91",
     desc      = "Some random logging",
     author    = "Licho",
     date      = "2013",
     license   = "GNU GPL, v2 or later",
     layer     = 1,
-    enabled   = not (Game.version:find('91.0') == 1),
+    enabled   = (Game.version:find('91.0') == 1),
   }
 end 
 
@@ -17,7 +17,14 @@ local spDiffTimers = Spring.DiffTimers
 local LOG_START = 30*60*8
 local LOG_END = LOG_START + 60*30
 
-if not (gadgetHandler:IsSyncedCode()) then
+if (gadgetHandler:IsSyncedCode()) then
+
+function gadget:GameFrame(gf)
+	SendToUnsynced("gameFrame", gf)
+end
+
+
+else 
 
 local frameTimer= spGetTimer()
 local gfTimer = spGetTimer()
@@ -33,7 +40,7 @@ function gadget:Update()
 	frameTimer = newTimer
 end
 
-function gadget:GameFrame(gf)
+local function gameFrame(_, gf)
 	if gf > lastGameFrame then
 		local newTimer = spGetTimer()
 		local frame = Spring.GetGameFrame()
@@ -44,5 +51,9 @@ function gadget:GameFrame(gf)
 		gfTimer = newTimer
 	end
 end 
+
+function gadget:Initialize()
+    gadgetHandler:AddSyncAction("gameFrame", gameFrame)
+end
 
 end
