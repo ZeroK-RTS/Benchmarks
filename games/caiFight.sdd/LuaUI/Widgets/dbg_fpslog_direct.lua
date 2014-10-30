@@ -31,6 +31,21 @@ end
 function widget:Update(dt)
 	local frame = Spring.GetGameFrame() 
 	if frame > 0 and not setFast then
+		-- Set camera in case different engines have different default locations
+		Spring.SetCameraState({
+			px = 3072,
+			py = 91.71875,
+			pz = 4096,
+			flipped = -1,
+			dx = 0,
+			dy = -0.8945,
+			dz = -0.4472,
+			name = "ta",
+			zscale = 0.5,
+			height = 9728,
+			mode = 1,
+		}, 0)
+		
 		startTimer = spGetTimer()
 		Spring.SendCommands("setminspeed 20")
 		Spring.SendCommands("setmaxspeed 20")
