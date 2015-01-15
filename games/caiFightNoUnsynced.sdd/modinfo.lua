@@ -1,7 +1,7 @@
 local modinfo = {
-  name          =	[[CAI Fight no unsynced or luaUI]],
+  name          =	[[CAI Fight no Unsynced]],
   description   =	[[Mission Mutator]],
   modtype       =	[[1]],
-  depend = {'Zero-K test-8583-6c909eb', },
+  depend = {'Zero-K v1.2.12.2'},
 }
 return modinfo

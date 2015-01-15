@@ -28,7 +28,12 @@ function widget:Initialize()
 	Spring.Echo("Logger Initialized")
 end
 
+local cheated = false
 function widget:Update(dt)
+	if not cheated then
+		Spring.SendCommands("cheat")
+		cheated = true
+	end
 	local frame = Spring.GetGameFrame() 
 	if frame > 0 and not setFast then
 		-- Set camera in case different engines have different default locations
@@ -45,6 +50,8 @@ function widget:Update(dt)
 			height = 9728,
 			mode = 1,
 		}, 0)
+		
+		Spring.WarpMouse(100, 100)
 		
 		startTimer = spGetTimer()
 		Spring.SendCommands("setminspeed 20")

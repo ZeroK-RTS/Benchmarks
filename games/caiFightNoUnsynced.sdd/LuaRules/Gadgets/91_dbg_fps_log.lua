@@ -23,22 +23,11 @@ function gadget:GameFrame(gf)
 	SendToUnsynced("gameFrame", gf)
 end
 
-
 else 
 
 local frameTimer= spGetTimer()
 local gfTimer = spGetTimer()
 local lastGameFrame = 0
-
-
-function gadget:Update() 
-	local newTimer = spGetTimer()
-	local frame = Spring.GetGameFrame()
-	if frame > LOG_START and frame < LOG_END then
-		Spring.Echo("!transmitlobby g_update_dt: " .. spDiffTimers(newTimer, frameTimer))
-	end
-	frameTimer = newTimer
-end
 
 local function gameFrame(_, gf)
 	if gf > lastGameFrame then

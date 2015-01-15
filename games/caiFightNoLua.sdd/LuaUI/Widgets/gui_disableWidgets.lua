@@ -32,7 +32,7 @@ function widget:Update()
 		for name, data in pairs(widgetHandler.widgets) do
 			local name = data.whInfo.name
 			if not whitelist[name] then
-				widgetHandler:DisableWidget(name)
+				--widgetHandler:DisableWidget(name)
 			end
 		end
 	end

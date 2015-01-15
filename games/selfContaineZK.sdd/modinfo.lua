@@ -2,6 +2,6 @@ local modinfo = {
   name          =	[[Self Contained merged with ZK]],
   description   =	[[Mission Mutator]],
   modtype       =	[[1]],
-  depend = {'Zero-K test-8583-6c909eb', "cursors.sdz", "springcontent.sdz"},
+  depend = {'Zero-K v1.3.1.3', "cursors.sdz", "springcontent.sdz"},
 }
 return modinfo

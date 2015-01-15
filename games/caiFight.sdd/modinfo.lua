@@ -2,6 +2,6 @@ local modinfo = {
   name          =	[[CAI Fight]],
   description   =	[[Mission Mutator]],
   modtype       =	[[1]],
-  depend = {'Zero-K test-8573-553d2e5', },
+  depend = {'Zero-K v1.3.1.3'},
 }
 return modinfo

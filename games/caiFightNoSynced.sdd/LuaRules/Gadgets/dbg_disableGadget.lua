@@ -17,21 +17,11 @@ end
 local gadgetList = {
 	--"CAI",
 	--"LUS",
-	--"LupsNanoSpray91",
 	--"Mex Control with energy link",
 	--"Metalspot Finder Gadget",
 	--"Mex Placement",
 	
-	"91 Teleporter",
-	"Awards_91",
-	"Capture_91",
-	"LupsSyncedManager_91",
 	"LupsSyncedManager",
-	"Thrusters_91",
-	"UnitCloakShield_91",
-	"Rezz Hp Changer + effect_91",
-	"Nano Frame Death Handeling91",
-	"CustomUnitShaders_91",
 	"Ceasefires2",
 	"Perks",
 	"UnitMorph",
@@ -151,7 +141,7 @@ local gadgetList = {
 local unsyncedGadgetList = {
 	"CAI",
 	"LUS",
-	"LupsNanoSpray91",
+	"LupsNanoSpray",
 	"Mex Control with energy link",
 	"Metalspot Finder Gadget",
 	"Mex Placement",
@@ -164,7 +154,8 @@ function gadget:GameFrame(n)
 	if first and n > 5 then
 		Spring.Echo("DisableGadget here")
 		for i = 1, #gadgetList do
-			--gadgetHandler:GotChatMsg("disablegadget " .. gadgetList[i], 0)
+			gadgetHandler:GotChatMsg("disablegadget " .. gadgetList[i], 0)
+			gadgetHandler:GotChatMsg("disablegadget " .. gadgetList[i] .. "_91", 0)
 		end
 		first = false
 	end
@@ -176,10 +167,12 @@ local first = true
 function gadget:Update()
 	if first and Spring.GetGameFrame() > 5 then
 		for i = 1, #gadgetList do
-			gadgetHandler:GotChatMsg("disablegadget " .. gadgetList[i], 0)
+			--gadgetHandler:GotChatMsg("disablegadget " .. gadgetList[i], 0)
+			--gadgetHandler:GotChatMsg("disablegadget " .. gadgetList[i] .. "_91", 0)
 		end
 		for i = 1, #unsyncedGadgetList do
-			gadgetHandler:GotChatMsg("disablegadget " .. unsyncedGadgetList[i], 0)
+			--gadgetHandler:GotChatMsg("disablegadget " .. unsyncedGadgetList[i], 0)
+			--gadgetHandler:GotChatMsg("disablegadget " .. unsyncedGadgetList[i] .. "_91", 0)
 		end
 		first = false
 	end
