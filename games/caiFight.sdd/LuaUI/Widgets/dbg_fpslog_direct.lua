@@ -82,7 +82,7 @@ function widget:Update(dt)
 		--Spring.SendCommands("screenshot")
 		local units = spGetAllUnits()
 		Spring.Echo("!transmitlobby units_end: " .. #units)
-		Spring.SendCommands("quit")
+		Spring.SendCommands("quitforce")
 	end
 end
 
