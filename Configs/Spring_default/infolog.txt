@@ -1,0 +1,471 @@
+Using configuration source: "C:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Spring_default\springsettings.cfg"
+[CMyMath::Init] CPU SSE mask: 127, flags:
+	SSE 1.0:  1,  SSE 2.0:  1
+	SSE 3.0:  1, SSSE 3.0:  1
+	SSE 4.1:  1,  SSE 4.2:  1
+	SSE 4.0A: 0,  SSE 5.0A: 0
+	using streflop SSE FP-math mode, CPU supports SSE instructions
+OS: Microsoft Windows
+Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)
+Intel(R) Core(TM) i7-3930K CPU @ 3.20GHz; 16333MB RAM, 32664MB pagefile
+OS: emulated 32bit mode
+[Watchdog] Installed (HangTimeout: 10sec)
+Available log sections: KeyBindings, CSMFGroundTextures, RoamMeshDrawer, BumpWater, DynWater, SkyBox, FarTextureHandler, Model, Piece, ModelDrawer, OBJParser, WorldObjectModelRenderer, Texture, Font, CollisionVolume, GroundMoveType, Path, UnitScript, AutohostInterface, ArchiveScanner, VFS, Sound, LuaSocket
+Enabled log sections: Sound(LOG_LEVEL_INFO)
+Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+LogOutput initialized.
+Spring 91.0
+Build date/time: Aug 30 2012 21:05:51
+Build environment: boost-104800, GNU libstdc++ version 20100429
+Compiler: gcc-4.4.4
+Using read-write data directory: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Spring_default\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\engine\91.0\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\engine\
+Scanning: C:\Users\Tim\Documents\My Games\Spring\engine\91.0\base
+Scanning: C:\Users\Tim\Documents\My Games\Spring\maps
+Scanning: C:\Users\Tim\Documents\My Games\Spring\base
+Scanning: C:\Users\Tim\Documents\My Games\Spring\games
+Scanning: C:\Users\Tim\Documents\My Games\Spring\mods
+Scanning: C:\Users\Tim\Documents\My Games\Spring\packages
+Scanning: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
+Supported Video modes: 1920x1080, 1680x1050, 1600x1024, 1600x900, 1366x768, 1360x768, 1280x1024, 1280x960, 1280x800, 1280x768, 1280x720, 1152x864, 1024x768, 800x600, 720x576, 720x480, 640x480
+Video mode set to 1920x1080/32bit
+[f=0000000] SDL version:  1.2.10
+[f=0000000] GL version:   4.4.0 NVIDIA 344.11
+[f=0000000] GL vendor:    NVIDIA Corporation
+[f=0000000] GL renderer:  GeForce GTX 560 Ti/PCIe/SSE2
+[f=0000000] GLSL version: 4.40 NVIDIA via Cg compiler
+[f=0000000] GLEW version: 1.5.8
+[f=0000000] Video RAM:    total 1024MB, available 385MB
+[f=0000000] Installing OpenGL-DebugMessageHandler
+[f=0000000] GL info:
+	haveARB: 1, haveGLSL: 1, ATI hacks: 0
+	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 1
+	maximum texture size: 16384, compress MIP-map textures: 0
+	maximum SmoothPointSize: 190, maximum vec4 varying/attributes: 31/16
+	maximum drawbuffers: 8, maximum recommended indices/vertices: 1048576/1048576
+	number of UniformBufferBindings: 84 (64kB)
+[f=0000000] VSync disabled
+[f=0000000] Joysticks found: 0
+[f=0000000] Warning: Joystick 0 not found
+[f=0000000] CPU Cores: 12
+[f=0000000] CPU affinity not set
+[f=0000000] Loading startscript from: C:\Users\Tim\AppData\Local\Temp\tmp2895.tmp
+[f=0000000] Connecting to local server
+[f=0000000] [Sound] OpenAL info:
+[f=0000000] [Sound]   Available Devices:
+[f=0000000] [Sound]               DirectSound Software
+[f=0000000] [Sound]   Device:     DirectSound Software
+[f=0000000] [Sound]   Vendor:         OpenAL Community
+[f=0000000] [Sound]   Version:        1.1 ALSOFT 1.11.753
+[f=0000000] [Sound]   Renderer:       OpenAL Soft
+[f=0000000] [Sound]   AL Extensions:  AL_EXTX_buffer_sub_data AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_OFFSET AL_EXTX_sample_buffer_object AL_EXT_source_distance_model AL_LOKI_quadriphonic
+[f=0000000] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_disconnect ALC_EXT_EFX ALC_EXTX_thread_local_context
+[f=0000000] [Sound]   EFX Enabled: yes
+[f=0000000] [Sound]   Max Sounds: 128
+[f=0000000] PreGame::StartServer: 22 ms
+[f=0000000] Using map: white
+[f=0000000] Using game: Self Contained merged with ZK
+[f=0000000] Using game archive: selfContaineZK.sdd
+[f=0000000] recording demo: demos/20141125_163239_white_91.sdf
+[f=0000000] PreGame::GameDataReceived: 104 ms
+[f=0000000] User number 0 (team 0, allyteam 0)
+[f=0000000] Loading Radar Icons
+[f=0000000] Loading GameData Definitions
+[f=0000000] [gamedata/modularcomms/unitdefgen.lua] Warning: Modular Comms warning: Comm data entry in modoption is empty or in invalid format
+[f=0000000] Loading all definitions:  0.411000
+[f=0000000] Game::LoadDefs (GameData): 517 ms
+[f=0000000] Loading Sound Definitions
+[f=0000000] [Sound] Warning: Sound incomingchat is missing file tag (ignoring)
+[f=0000000] [Sound]  parsed 351 sounds from gamedata/sounds.lua
+[f=0000000] [Sound] Warning: Unable to open audio file: IncomingChat
+[f=0000000] [Sound] Warning: CSound::GetSoundId: could not find sound: IncomingChat
+[f=0000000] Game::LoadDefs (Sound): 57 ms
+[f=0000000] Parsing Map Information
+[f=0000000] Loading SMF
+[f=0000000] Loading Map (103 MB)
+[f=0000000] Creating Smooth Height Mesh
+[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 93 ms
+[f=0000000] Creating QuadField & CEGs
+[f=0000000] Number of damage types: 5
+[f=0000000] [RegisterAssimpModelParsers] supported Assimp model formats: *.3d;*.3ds;*.ac;*.ac3d;*.acc;*.ase;*.ask;*.b3d;*.blend;*.bvh;*.cob;*.csm;*.dae;*.dxf;*.enff;*.hmp;*.ifc;*.irr;*.irrmesh;*.lwo;*.lws;*.lxo;*.m3;*.md2;*.md3;*.md5anim;*.md5camera;*.md5mesh;*.mdc;*.mdl;*.mesh.xml;*.mot;*.ms3d;*.ndo;*.nff;*.obj;*.off;*.pk3;*.ply;*.prj;*.q3o;*.q3s;*.raw;*.scn;*.smd;*.stl;*.ter;*.uc;*.vta;*.x;*.xgl;*.xml;*.zgl;
+[f=0000000] Creating Unit Textures
+[f=0000000] Loading Weapon Definitions
+[f=0000000] Loading Unit Definitions
+[f=0000000] Warning: building: Given yardmap/blockmap requires 3 extra char(s)!
+[f=0000000] Warning: [UnitDef] inconsistent path-type 16 for "chicken" (move-class "bhover3"): canFloat, but not a ship-based movetype
+[f=0000000] Warning: [UnitDef] inconsistent path-type 16 for "chicken_dodo" (move-class "bhover3"): canFloat, but not a ship-based movetype
+[f=0000000] Warning: [UnitDef] inconsistent path-type 16 for "chickenblobber" (move-class "bhover3"): canFloat, but not a ship-based movetype
+[f=0000000] Warning: [UnitDef] inconsistent path-type 16 for "chickenr" (move-class "bhover3"): canFloat, but not a ship-based movetype
+[f=0000000] Warning: [UnitDef] inconsistent path-type 16 for "chickens" (move-class "bhover3"): canFloat, but not a ship-based movetype
+[f=0000000] Warning: too many unit categories (32), skipping fakeunit
+[f=0000000] Loading Feature Definitions
+[f=0000000] Initializing Map Features
+[f=0000000] Reading Estimate PathCosts [8]
+[f=0000000] Reading Estimate PathCosts [32]
+[f=0000000] [CPathManager] pathing data checksum: 1471c864
+[f=0000000] [IPathManager::GetInstance] using DEFAULT path-manager
+[f=0000000] Creating Sky
+[f=0000000] Creating ShadowHandler & DecalHandler
+[f=0000000] Creating GroundDrawer
+[f=0000000] Loading Tile Files
+[f=0000000] Reading Tile Map
+[f=0000000] Loading Square Textures
+[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 4 ms
+[f=0000000] Switching to ROAM Mesh Rendering
+[f=0000000] Creating TreeDrawer
+[f=0000000] Creating ProjectileDrawer & UnitDrawer
+[f=0000000] Creating Projectile Textures
+[f=0000000] Error: [GetBuildingDecalType] Could not load building-decal from file "unittextures/"
+[f=0000000] Error: [GetBuildingDecalType] Could not load building-decal from file "unittextures/"
+[f=0000000] Creating Water
+[f=0000000] Game::LoadInterface (Camera&Mouse): 363 ms
+[f=0000000] [Sound] Warning: Unable to open audio file: MultiSelect
+[f=0000000] [Sound] Warning: CSound::GetSoundId: could not find sound: MultiSelect
+[f=0000000] Game::LoadInterface (Console): 1 ms
+[f=0000000] [Sound] Warning: Unable to open audio file: FailedCommand
+[f=0000000] [Sound] Warning: CSound::GetSoundId: could not find sound: FailedCommand
+[f=0000000] Loading LuaRules
+[f=0000000] [CAI] Error: CAI: Fatal error, map not supported due to metal map.
+[f=0000000] [Planet Wars Structures] Warning: Planetwars warning: Planetwars data entry in modoption is empty or in invalid format
+[f=0000000] Initializing gadget
+[f=0000000] LUARULES-DRAW  (GADGETS)
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: anothertank no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: base no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: builder no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: building no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: starbursttank no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: tank no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: tank1 no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: tank4 no tex2
+[f=0000000] [CustomUnitShaders_91] Warning: CustomUnitShaders: tank5 no tex2
+[f=0000000] zombies: unsynced mode
+[f=0000000] LUARULES-DRAW  (GADGETS)
+[f=0000000] Loading LuaGaia
+[f=0000000] Loading LuaUI
+[f=0000000] LuaSocketEnabled: no
+[f=0000000] This game has locked LuaUI access
+[f=0000000] This game has locked LuaUI access
+[f=0000000] Using LUAUI_DIRNAME = LuaUI/
+[f=0000000] Reloaded ctrlpanel from file: LuaUI/ctrlpanel.txt
+[f=0000000] LuaUI: bound F11 to the widget selector
+[f=0000000] LuaUI: bound CTRL+F11 to tweak mode
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Configs/zk_keys.lua: No such file or directory (Now will find backup file)
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Configs/zk_keys.lua.bak: No such file or directory (Backup file not available)
+[f=0000000] nil, LuaUI/Configs/zk_keys.lua: No such file or directory, 2
+[f=0000000] nil, LuaUI/Configs/zk_keys.lua.bak: No such file or directory, 2
+[f=0000000] Loaded local team color config.
+[f=0000000] Loaded API widget:  Cluster Detection   <api_cluster_detection.lua>
+[f=0000000] Loaded API widget:  Shared Functions    <api_shared_functions.lua>
+[f=0000000] Loaded API widget:  Chili Framework     <api_chili.lua>
+[f=0000000] Loaded API widget:  Lag (AFK) monitor   <api_lag_monitor.lua>
+[f=0000000] Hardware mouse-cursor is disabled!
+[f=0000000] Ground-decals rendering is enabled!
+[f=0000000] Set maximum particles to: 1000
+[f=0000000] Set UnitLodDist to 1000
+[f=0000000] Set UnitIconDist to 10000
+[f=0000000] model shaders is enabled!
+[f=0000000] Loaded widget:  EPIC Menu           <gui_epicmenu.lua>
+[f=0000000] Loaded widget:  Chili Widget Selector  <gui_chili_widgetselector.lua>
+[f=0000000] Loaded widget:  Custom Cursor Sets  <gui_customcursorsets.lua>
+[f=0000000] Loaded widget:  Chili CTF GUI       <gui_chili_ctf.lua>
+[f=0000000] Loaded widget:  Cloak Fire State    <unit_cloakfirestate.lua>
+[f=0000000] Logger Initialized
+[f=0000000] Loaded widget:  Widget_Fps_Log      <dbg_fpslog_direct.lua>
+[f=0000000] Loaded widget:  Clippy Comments     <unit_clippy.lua>
+[f=0000000] Loaded widget:  Attack Warning      <unit_attack_warning.lua>
+[f=0000000] Spectator mode detected. Removed: Auto First Build Facing
+[f=0000000] Loaded widget:  Auto First Build Facing  <init_autofirstbuildfacing.lua>
+[f=0000000] Loaded widget:  Auto Group          <unit_auto_group.lua>
+[f=0000000] <DefenseRange>: Unsupported Game, shutting down...
+[f=0000000] Loaded widget:  Defense Range Zero-K  <gui_defenserange.lua>
+[f=0000000] Loaded widget:  Frame Gap Logger    <dbg_frame_gap_logger.lua>
+[f=0000000] Loaded widget:  NoDuplicateOrders   <cmd_no_duplicate_orders.lua>
+[f=0000000] Loaded widget:  Start Point Remover & Comm Selector  <init_start_point_remover.lua>
+[f=0000000] <Startup Info and Selector> Spectator mode, Junior forced, or replay. Widget removed.
+[f=0000000] Loaded widget:  Startup Info and Selector  <init_startup_info_selector.lua>
+[f=0000000] <Stockpiler>: disabled for spectators
+[f=0000000] Loaded widget:  Stockpiler          <unit_stockpile.lua>
+[f=0000000] Loaded widget:  Transport AI        <unit_transport_ai.lua>
+[f=0000000] <Unit Marker> Spectator mode or replay. Widget removed.
+[f=0000000] <Unit Marker>: unsupported Mod, shutting down...
+[f=0000000] Loaded widget:  Unit Marker Zero-K  <unit_marker.lua>
+[f=0000000] Loaded widget:  PlanetWars Info     <gui_planetwars_info.lua>
+[f=0000000] <Replay control buttons> Live mode. Widget removed.
+[f=0000000] Loaded widget:  Replay control buttons  <gui_replay_controls.lua>
+[f=0000000] Loaded widget:  Ore mexes!          <gui_oremex.lua>
+[f=0000000] Marketplace and Bounty Icons: Widget removed.
+[f=0000000] Loaded widget:  Bounty & Marketplace Icons (experimental)  <unit_bounty_marketplace_icons.lua>
+[f=0000000] <Building Starter>: disabled for spectators
+[f=0000000] Loaded widget:  Building Starter    <unit_building_starter.lua>
+[f=0000000] <Cloaker Guard>: disabled for spectators
+[f=0000000] Loaded widget:  Cloaker Guard       <unit_cloaker_guard.lua>
+[f=0000000] Newton Firezone disabled for spectator.
+[f=0000000] Loaded widget:  Newton Firezone     <cmd_newton_firezone.lua>
+[f=0000000] Loaded widget:  Receive Units Indicator  <gui_recv_indicator.lua>
+[f=0000000] Loaded widget:  Image Preloader     <dbg_img_preload.lua>
+[f=0000000] Loaded widget:  Disable Widgets     <gui_disablewidgets.lua>
+[f=0000000] Loaded widget:  MiniMap Start Boxes  <minimap_startbox.lua>
+[f=0000000] Removed 'GC at >100MB': not needed for Spring 91
+[f=0000000] Loaded widget:  GC at >300MB        <dbg_forcegc_spring97.lua>
+[f=0000000] UnnamedPlayer DISABLE TTS
+[f=0000000] Loaded widget:  Text To Speech Control  <snd_text_to_speech.lua>
+[f=0000000] [Shared Functions] Warning: LuaUI/Configs/zk_keys.lua: No such file or directory
+[f=0000000] LuaUI v0.3
+[f=0000000] Finalizing
+[f=0000000] <Clippy Comments> Spectator mode or replay. Widget removed.
+[f=0000000] Connection attempt from UnnamedPlayer
+[f=0000000]  -> Version: 91.0
+[f=0000000]  -> Connection established (given id 0)
+[f=0000000] Spectator UnnamedPlayer finished loading and is now ingame
+[f=0000000] Switching to Overhead (TA) style camera
+[f=0000000] Epicmenu: Switching to Total Annihilation camera mode
+[f=0000000] Removed:  LuaUI/Widgets/api_cluster_detection.lua
+[f=0000000] Removed:  LuaUI/Widgets/gui_epicmenu.lua
+[f=0000000] [Shared Functions] Warning: LuaUI/Configs/zk_keys.lua: No such file or directory
+[f=0000000] Removed:  LuaUI/Widgets/gui_customcursorsets.lua
+[f=0000000] Removed:  LuaUI/Widgets/api_chili.lua
+[f=0000000] Removed:  LuaUI/Widgets/dbg_img_preload.lua
+[f=0000000] Removed:  LuaUI/Widgets/snd_text_to_speech.lua
+[f=0000000] UnnamedPlayer DISABLE TTS
+[f=0000000] Removed:  LuaUI/Widgets/api_shared_functions.lua
+[f=0000000] Removed:  LuaUI/Widgets/api_lag_monitor.lua
+[f=0000000] Removed:  LuaUI/Widgets/gui_chili_widgetselector.lua
+[f=0000000] GameID: 871474549ef8fda36a9bf0ef1cdf4421
+[f=0000001] Skirmish AI ""Ally"" (ID:1, Short-Name:"NullAI", Version:"") took over control of team 0
+[f=0000001] Skirmish AI "Enemy" (ID:0, Short-Name:"NullAI", Version:"") took over control of team 1
+[f=0000004] Cheating is enabled!
+[f=0000004] Speed set to 3.0 [server]
+[f=0000006] DisableGadget here
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_teleporter.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_awards.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_capture.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: LupsSyncedManager91
+[f=0000006] Removed:  LuaRules/Gadgets/91_lups_thrusters.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_cloak_shield.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: Rezz Hp Changer + effect_91
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_nanoframe_death.lua
+[f=0000006] Removed:  LuaRules/Gadgets/customunitshaders/91_main.lua
+[f=0000006] Removed:  LuaRules/Gadgets/ceasefire2.lua
+[f=0000006] Removed:  LuaRules/Gadgets/game_perks.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_morph.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_fix_dropped_startpos.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_dont_fire_at_radar.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_disable_buildoptions.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_grey_goo.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_noselfd.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_attributes.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_fall_damage.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_transport_speed.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_marketplace.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_refuel_pad_handler.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_windmill_control.lua
+[f=0000006] Removed:  LuaRules/Gadgets/mod_stats.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_explosion_spawner.lua
+[f=0000006] Removed:  LuaRules/Gadgets/astar.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_tactical_ai.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_repair_speed.lua
+[f=0000006] Removed:  LuaRules/Gadgets/terrain_texture_handler.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_spherical_los.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_target_priority.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_transport_ai_buttons.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_terraform.lua
+[f=0000006] Removed:  LuaRules/Gadgets/init_auto_ready.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: Test
+[f=0000006] Removed:  LuaRules/Gadgets/api_subdir_gadgets.lua
+[f=0000006] Removed:  LuaRules/Gadgets/exp_no_air_nuke.lua
+[f=0000006] Removed:  LuaRules/Gadgets/game_lagmonitor.lua
+[f=0000006] Removed:  LuaRules/Gadgets/dbg_animator.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_control_gunship_stafe_range.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_carrier_drones.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_bounty.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_bomber_command.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_boolean_disable.lua
+[f=0000006] Removed:  LuaRules/Gadgets/cmd_doline.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_instant_self_destruct.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_missilesilo.lua
+[f=0000006] Removed:  LuaRules/Gadgets/factory_anti_slacker.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_timeslow.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_gunship_strafe_control.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_aircraft_crash.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_stealth.lua
+[f=0000006] Removed:  LuaRules/Gadgets/weapon_noexplode_stopper.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_puppy_handler.lua
+[f=0000006] Removed:  LuaRules/Gadgets/weapon_area_damage.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_water_effects.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_priority.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_is_on_fire.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_allow_builder_hold_fire.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_target_on_the_move.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_estall_disable.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_stockpile.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_impulsefloat_toggle.lua
+[f=0000006] Removed:  LuaRules/Gadgets/cmd_retreat.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_decloak_damaged.lua
+[f=0000006] Removed:  LuaRules/Gadgets/share_control.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_centeroffset.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_shield_link.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_self_destruct.lua
+[f=0000006] Removed:  LuaRules/Gadgets/lockunits_modoption.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_transport_pickup_floating_amphib.lua
+[f=0000006] Removed:  LuaRules/Gadgets/cmd_areaguard.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_reclaim_hp.lua
+[f=0000006] Removed:  LuaRules/Gadgets/weapon_impulse.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_bomber_dive.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_solar_force_closed.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_vertical_swarm.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_prevent_lab_hax.lua
+[f=0000006] Removed:  LuaRules/Gadgets/lups_wrapper.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_jumpjets.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_oneclick_weapon.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_paralysis_damage.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_nofriendlyfire.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_air_plants.lua
+[f=0000006] Removed:  LuaRules/Gadgets/api_saveload.lua
+[f=0000006] Removed:  LuaRules/Gadgets/weapon_single_hit.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_icongenerator.lua
+[f=0000006] Removed:  LuaRules/Gadgets/mission_orbital_drop.lua
+[f=0000006] Removed:  LuaRules/Gadgets/unit_dgun_aim.lua
+[f=0000006] Removed:  LuaRules/Gadgets/lavarise.lua
+[f=0000006] Removed:  LuaRules/Gadgets/game_resign.lua
+[f=0000006] Removed:  LuaRules/Gadgets/cmd_raw_move.lua
+[f=0000006] Removed:  LuaRules/Gadgets/dbg_ceg_spawner.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: CustomUnitShaders
+[f=0000006] Removed:  LuaRules/Gadgets/cmd_hide_autorepairlevel.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: Lups
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: BOXXY R1 w volume type
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: Chicken Spawner
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: unit_missilesilo.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: unit_carrier_drones.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_teleporter.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_awards.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_capture.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: LupsSyncedManager91
+[f=0000006] Removed:  LuaRules/Gadgets/91_lups_thrusters.lua
+[f=0000006] Removed:  LuaRules/Gadgets/91_unit_cloak_shield.lua
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: Rezz Hp Changer + effect_91
+[f=0000006] [gadgets.lua] Error: DisableGadget(), could not find gadget: Nano Frame Death Handeling91
+[f=0000006] Removed:  LuaRules/Gadgets/customunitshaders/91_main.lua
+[f=0000006] Error: LuaRules::RunCallIn: error = 2, Update, [string "LuaRules/gadgets.lua"]:658: attempt to call method 'Shutdown' (a userdata value)
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: LupsSyncedManager91
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Rezz Hp Changer + effect_91
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Nano Frame Death Handeling91
+[f=0000010] Removed:  LuaRules/Gadgets/ceasefire2.lua
+[f=0000010] Removed:  LuaRules/Gadgets/game_perks.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_morph.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_fix_dropped_startpos.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_dont_fire_at_radar.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Disable Buildoptions
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Grey Goo
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: No Self-D
+[f=0000010] Removed:  LuaRules/Gadgets/unit_attributes.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_fall_damage.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_transport_speed.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_marketplace.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Refuel Pad Handler
+[f=0000010] Removed:  LuaRules/Gadgets/unit_windmill_control.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Weapon Timed Replace
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Mod statistics
+[f=0000010] Removed:  LuaRules/Gadgets/unit_explosion_spawner.lua
+[f=0000010] Removed:  LuaRules/Gadgets/astar.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Tactical Unit AI
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Repair Speed Changer
+[f=0000010] Removed:  LuaRules/Gadgets/terrain_texture_handler.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_spherical_los.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_target_priority.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_transport_ai_buttons.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Nano Frame Death Handeling
+[f=0000010] Removed:  LuaRules/Gadgets/unit_terraform.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Test
+[f=0000010] Removed:  LuaRules/Gadgets/api_subdir_gadgets.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: NoAirNuke
+[f=0000010] Removed:  LuaRules/Gadgets/game_lagmonitor.lua
+[f=0000010] Removed:  LuaRules/Gadgets/dbg_animator.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_control_gunship_stafe_range.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Carrier Drones
+[f=0000010] Removed:  LuaRules/Gadgets/unit_bounty.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_bomber_command.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Boolean Disable
+[f=0000010] Removed:  LuaRules/Gadgets/cmd_doline.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Instant Self Destruct
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Missile Silo Controller
+[f=0000010] Removed:  LuaRules/Gadgets/factory_anti_slacker.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Time slow v2
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Gunship Strafe Control
+[f=0000010] Removed:  LuaRules/Gadgets/unit_aircraft_crash.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_stealth.lua
+[f=0000010] Removed:  LuaRules/Gadgets/weapon_noexplode_stopper.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Puppy Handler
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Blocking Tag Implementation
+[f=0000010] Removed:  LuaRules/Gadgets/weapon_area_damage.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_water_effects.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_priority.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_is_on_fire.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_allow_builder_hold_fire.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_target_on_the_move.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_estall_disable.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Stockpile
+[f=0000010] Removed:  LuaRules/Gadgets/unit_impulsefloat_toggle.lua
+[f=0000010] Removed:  LuaRules/Gadgets/cmd_retreat.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Decloak when damaged
+[f=0000010] Removed:  LuaRules/Gadgets/unit_centeroffset.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_shield_link.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Set Nano Piece
+[f=0000010] Removed:  LuaRules/Gadgets/unit_self_destruct.lua
+[f=0000010] Removed:  LuaRules/Gadgets/lockunits_modoption.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_transport_pickup_floating_amphib.lua
+[f=0000010] Removed:  LuaRules/Gadgets/cmd_areaguard.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Reclaim HP changer
+[f=0000010] Removed:  LuaRules/Gadgets/weapon_impulse.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_bomber_dive.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_solar_force_closed.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Vertical Swarm
+[f=0000010] Removed:  LuaRules/Gadgets/unit_prevent_lab_hax.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: lups_wrapper.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Jumpjets
+[f=0000010] Removed:  LuaRules/Gadgets/unit_oneclick_weapon.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Paralysis
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: No Friendly Fire
+[f=0000010] Removed:  LuaRules/Gadgets/unit_air_plants.lua
+[f=0000010] Removed:  LuaRules/Gadgets/api_saveload.lua
+[f=0000010] Removed:  LuaRules/Gadgets/weapon_single_hit.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_icongenerator.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: Orbital Drop
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: D-Gun Aim Fix
+[f=0000010] Removed:  LuaRules/Gadgets/lavarise.lua
+[f=0000010] Removed:  LuaRules/Gadgets/game_resign.lua
+[f=0000010] Removed:  LuaRules/Gadgets/cmd_raw_move.lua
+[f=0000010] Removed:  LuaRules/Gadgets/dbg_ceg_spawner.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: CustomUnitShaders
+[f=0000010] Removed:  LuaRules/Gadgets/cmd_hide_autorepairlevel.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_oremex.lua
+[f=0000010] Removed:  LuaRules/Gadgets/lups_wrapper.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_planetwars.lua
+[f=0000010] [gadgets.lua] Error: DisableGadget(), could not find gadget: BOXXY R1 w volume type
+[f=0000010] Removed:  LuaRules/Gadgets/unit_spawner.lua
+[f=0000010] Removed:  LuaRules/Gadgets/chicken_control.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_missilesilo.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_disable_features.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_carrier_drones.lua
+[f=0000010] Removed:  LuaRules/Gadgets/unit_zombies.lua
+[f=0000477] User exited
+[f=0000477] Start gadgetHandler:Shutdown
+[f=0000477] Shutdown - LupsNanoSpray91
+[f=0000477] End gadgetHandler:Shutdown
+[f=0000477] Start widgetHandler:Shutdown
+[f=0000477] Shutdown - SaveOrderList Complete
+[f=0000477] Shutdown - SaveConfigData Complete
+[f=0000477] End widgetHandler:Shutdown
+[f=0000477] [CCollisionHandler] dis-/continuous tests: 0/0
+[f=0000477] Path cache hits 480 80%
+[f=0000477] Path cache hits 365 32%
+[f=0000477] Statistics for RectangleOptimizer: 0%
+[f=0000477] Statistics for RectangleOptimizer: 0%
+[f=0000477] Statistics for local connection:
+Received: 1214 bytes
+Sent: 5101 bytes
+

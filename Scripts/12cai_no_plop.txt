@@ -326,7 +326,7 @@
 		NumAllies=0;
 	}
 
-	startpostype=3;
+	startpostype=2;
 	gametype=whatever;
 	ishost=1;
 	mapname=Comet Catcher Redux;
