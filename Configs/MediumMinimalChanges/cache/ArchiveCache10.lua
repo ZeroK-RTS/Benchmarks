@@ -2,7 +2,7 @@ local archiveCache = {
 
 	internalver = 10,
 
-	archives = {  -- count = 1350
+	archives = {  -- count = 1326
 		{
 			name = "0003d266451e5ee0a39c9e74f9744b40.sdp",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\packages\]],
@@ -9091,8 +9091,8 @@ local archiveCache = {
 		},
 		{
 			name = "bitmaps.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\100.0\base\spring\]],
-			modified = "1437296246",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\spring\]],
+			modified = "1461416513",
 			checksum = "369695027",
 			archivedata = {
 				description = "Various bitmaps used by spring",
@@ -9740,21 +9740,6 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "caifFight8594.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417235827",
-			checksum = "3133024392",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight 8594",
-				name_pure = "CAI Fight 8594",
-				depend = {
-					"Zero-K test-8594-68880fb",
-				},
-			},
-		},
-		{
 			name = "caiFight.sdd",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
 			modified = "1475383086",
@@ -9770,40 +9755,10 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "caiFight8583.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1418593336",
-			checksum = "2208023300",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight 8583",
-				name_pure = "CAI Fight 8583",
-				depend = {
-					"Zero-K test-8583-6c909eb",
-				},
-			},
-		},
-		{
-			name = "caiFight8599.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417005070",
-			checksum = "3660148581",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight 8599",
-				name_pure = "CAI Fight 8599",
-				depend = {
-					"Zero-K test-8599-c25263c",
-				},
-			},
-		},
-		{
 			name = "caiFight_2016_09.sdd",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1475383841",
-			checksum = "1187052870",
+			modified = "1475384045",
+			checksum = "1590198816",
 			archivedata = {
 				description = "Mission Mutator",
 				modtype = 1,
@@ -9811,246 +9766,6 @@ local archiveCache = {
 				name_pure = "CAI Fight 1016 09",
 				depend = {
 					"Zero-K v1.4.9.3",
-				},
-			},
-		},
-		{
-			name = "caiFight_2016_09_old.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1475064275",
-			checksum = "399423866",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight 1016 09 Old",
-				name_pure = "CAI Fight 1016 09 Old",
-				depend = {
-					"Zero-K test-10907-20b0bfa",
-				},
-			},
-		},
-		{
-			name = "caiFightFTL.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1419153468",
-			checksum = "3046687932",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight with FTL",
-				name_pure = "CAI Fight with FTL",
-				depend = {
-					"Zero-K v1.2.12.2",
-				},
-			},
-		},
-		{
-			name = "caiFightNoGadget.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417121296",
-			checksum = "2755657657",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no Gadget",
-				name_pure = "CAI Fight no Gadget",
-				depend = {
-					"Zero-K test-8605-f7d609e",
-				},
-			},
-		},
-		{
-			name = "caiFightNoGadgetEffect.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1416903222",
-			checksum = "1338957279",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no gadget effects",
-				name_pure = "CAI Fight no gadget effects",
-				depend = {
-					"Zero-K test-8583-6c909eb",
-				},
-			},
-		},
-		{
-			name = "caiFightNoLua.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1416922021",
-			checksum = "2801526782",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no Lua",
-				name_pure = "CAI Fight no Lua",
-				depend = {
-					"Zero-K test-8594-68880fb",
-				},
-			},
-		},
-		{
-			name = "caiFightNoLUS.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1419385850",
-			checksum = "349600394",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight No LUS",
-				name_pure = "CAI Fight No LUS",
-				depend = {
-					"Zero-K v1.2.12.2",
-				},
-			},
-		},
-		{
-			name = "caiFightNoSynced.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1418593483",
-			checksum = "725377543",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no Synced",
-				name_pure = "CAI Fight no Synced",
-				depend = {
-					"Zero-K v1.2.12.2",
-				},
-			},
-		},
-		{
-			name = "caiFightNoUnsynced.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1418593651",
-			checksum = "2005243167",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no Unsynced",
-				name_pure = "CAI Fight no Unsynced",
-				depend = {
-					"Zero-K v1.2.12.2",
-				},
-			},
-		},
-		{
-			name = "caiFightNoUnsyncedLuaUI.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1416904823",
-			checksum = "637888214",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no unsynced or luaUI",
-				name_pure = "CAI Fight no unsynced or luaUI",
-				depend = {
-					"Zero-K test-8594-68880fb",
-				},
-			},
-		},
-		{
-			name = "caiFightNoWidget.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1412418369",
-			checksum = "1642029079",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight no Widgets",
-				name_pure = "CAI Fight no Widgets",
-				depend = {
-					"Zero-K v1.2.9.9",
-				},
-			},
-		},
-		{
-			name = "caiFightOnly_0mod2.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1418593818",
-			checksum = "1263224496",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight Only 0 mod 2",
-				name_pure = "CAI Fight Only 0 mod 2",
-				depend = {
-					"Zero-K v1.2.12.2",
-				},
-			},
-		},
-		{
-			name = "caiFightOnly_0mod4.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417035950",
-			checksum = "2886978439",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight Only 0 mod 4",
-				name_pure = "CAI Fight Only 0 mod 4",
-				depend = {
-					"Zero-K test-8599-c25263c",
-				},
-			},
-		},
-		{
-			name = "caiFightOnly_1mod2.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1418593978",
-			checksum = "2148672293",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight Only 1 mod 2",
-				name_pure = "CAI Fight Only 1 mod 2",
-				depend = {
-					"Zero-K v1.2.12.2",
-				},
-			},
-		},
-		{
-			name = "caiFightOnly_1mod4.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417054957",
-			checksum = "347884092",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight Only 1 mod 4",
-				name_pure = "CAI Fight Only 1 mod 4",
-				depend = {
-					"Zero-K test-8599-c25263c",
-				},
-			},
-		},
-		{
-			name = "caiFightOnly_2mod4.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417054784",
-			checksum = "104713904",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight Only 2 mod 4",
-				name_pure = "CAI Fight Only 2 mod 4",
-				depend = {
-					"Zero-K test-8599-c25263c",
-				},
-			},
-		},
-		{
-			name = "caiFightOnly_3mod4.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1417054563",
-			checksum = "3197259531",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "CAI Fight Only 3 mod 4",
-				name_pure = "CAI Fight Only 3 mod 4",
-				depend = {
-					"Zero-K test-8599-c25263c",
 				},
 			},
 		},
@@ -10813,8 +10528,8 @@ local archiveCache = {
 		},
 		{
 			name = "cursors.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\100.0\base\]],
-			modified = "1437296246",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\]],
+			modified = "1461416513",
 			checksum = "3829215721",
 			archivedata = {
 				description = "Cursor pack by Erom",
@@ -14640,21 +14355,6 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "fps_test.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1411628339",
-			checksum = "3488273540",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "FPS empty",
-				name_pure = "FPS empty",
-				depend = {
-					"Zero-K v1.1.3.6",
-				},
-			},
-		},
-		{
 			name = "Fractured_Faces.sd7",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\maps\]],
 			modified = "1427847840",
@@ -16048,9 +15748,9 @@ local archiveCache = {
 		},
 		{
 			name = "maphelper.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\100.0\base\]],
-			modified = "1437296246",
-			checksum = "349204423",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\]],
+			modified = "1461416513",
+			checksum = "3114558821",
 			archivedata = {
 				description = "Maps can use this archive for its lua tdf parser",
 				modtype = 0,
@@ -17175,59 +16875,6 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "selfContained.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1416885476",
-			checksum = "1954329068",
-			archivedata = {
-				description = "Basic mod which runs a benchmark.",
-				game = "Self Contained Benchmark",
-				modtype = 1,
-				name = "Self Contained Benchmark",
-				name_pure = "Self Contained Benchmark",
-				shortgame = "benchmark",
-				shortname = "benchmark",
-				depend = {
-					"cursors.sdz",
-					"springcontent.sdz",
-				},
-			},
-		},
-		{
-			name = "selfContaineZK.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1419293046",
-			checksum = "1763920990",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "Self Contained merged with ZK",
-				name_pure = "Self Contained merged with ZK",
-				depend = {
-					"Zero-K v1.3.1.3",
-					"cursors.sdz",
-					"springcontent.sdz",
-				},
-			},
-		},
-		{
-			name = "selfContaineZK2.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1416887789",
-			checksum = "3751607647",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "Self Contained merged with ZK v2",
-				name_pure = "Self Contained merged with ZK v2",
-				depend = {
-					"Zero-K test-8583-6c909eb",
-					"cursors.sdz",
-					"springcontent.sdz",
-				},
-			},
-		},
-		{
 			name = "Seths_Ravine_V2.sd7",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\maps\]],
 			modified = "1328313054",
@@ -17648,9 +17295,9 @@ local archiveCache = {
 		},
 		{
 			name = "springcontent.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\100.0\base\]],
-			modified = "1437296246",
-			checksum = "3444186297",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\]],
+			modified = "1461416513",
+			checksum = "966654896",
 			archivedata = {
 				description = "Mods can depend on this archive to get all the spring content",
 				modtype = 0,
@@ -17671,6 +17318,21 @@ local archiveCache = {
 				modtype = 3,
 				name = "SpringMountainDelta",
 				name_pure = "SpringMountainDelta",
+			},
+		},
+		{
+			name = "staticBase.sdd",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
+			modified = "1475385672",
+			checksum = "4170828970",
+			archivedata = {
+				description = "Mission Mutator",
+				modtype = 1,
+				name = "Static Base",
+				name_pure = "Static Base",
+				depend = {
+					"Zero-K v1.4.9.3",
+				},
 			},
 		},
 		{
@@ -19677,40 +19339,6 @@ local archiveCache = {
 				name_pure = "Zero-K",
 				shortname = "ZK",
 				version = "v1.2.1.0",
-			},
-		},
-		{
-			name = "ZKbattle.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1419293813",
-			checksum = "2395549680",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "ZK battle",
-				name_pure = "ZK battle",
-				depend = {
-					"Zero-K v1.2.12.2",
-					"cursors.sdz",
-					"springcontent.sdz",
-				},
-			},
-		},
-		{
-			name = "ZKbattleFTL.sdd",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1419293845",
-			checksum = "3105494413",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "ZK Battle with FTL",
-				name_pure = "ZK Battle with FTL",
-				depend = {
-					"Zero-K v1.2.12.2",
-					"cursors.sdz",
-					"springcontent.sdz",
-				},
 			},
 		},
 	},
