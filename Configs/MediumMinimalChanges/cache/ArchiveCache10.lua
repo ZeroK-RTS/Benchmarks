@@ -9091,9 +9091,9 @@ local archiveCache = {
 		},
 		{
 			name = "bitmaps.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\spring\]],
-			modified = "1461416513",
-			checksum = "369695027",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0\base\spring\]],
+			modified = "1468942667",
+			checksum = "0",
 			archivedata = {
 				description = "Various bitmaps used by spring",
 				modtype = 0,
@@ -9757,8 +9757,8 @@ local archiveCache = {
 		{
 			name = "caiFight_2016_09.sdd",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1475384045",
-			checksum = "1590198816",
+			modified = "1475395632",
+			checksum = "0",
 			archivedata = {
 				description = "Mission Mutator",
 				modtype = 1,
@@ -10528,9 +10528,9 @@ local archiveCache = {
 		},
 		{
 			name = "cursors.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\]],
-			modified = "1461416513",
-			checksum = "3829215721",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0\base\]],
+			modified = "1468942667",
+			checksum = "0",
 			archivedata = {
 				description = "Cursor pack by Erom",
 				modtype = 0,
@@ -15748,9 +15748,9 @@ local archiveCache = {
 		},
 		{
 			name = "maphelper.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\]],
-			modified = "1461416513",
-			checksum = "3114558821",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0\base\]],
+			modified = "1468942667",
+			checksum = "0",
 			archivedata = {
 				description = "Maps can use this archive for its lua tdf parser",
 				modtype = 0,
@@ -17295,9 +17295,9 @@ local archiveCache = {
 		},
 		{
 			name = "springcontent.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\101.0.1-295-gb518776\base\]],
-			modified = "1461416513",
-			checksum = "966654896",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0\base\]],
+			modified = "1468942667",
+			checksum = "0",
 			archivedata = {
 				description = "Mods can depend on this archive to get all the spring content",
 				modtype = 0,
@@ -17323,8 +17323,8 @@ local archiveCache = {
 		{
 			name = "staticBase.sdd",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1475385672",
-			checksum = "4170828970",
+			modified = "1475385818",
+			checksum = "464423272",
 			archivedata = {
 				description = "Mission Mutator",
 				modtype = 1,

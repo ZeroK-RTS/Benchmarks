@@ -121,6 +121,6 @@ return {
 	wanderlust_V01 = 53.3659935,
 	white = 11.2929993,
 	[""] = {
-		["Comet Catcher Redux"] = 25.0029984,
+		["Comet Catcher Redux"] = 17.5859985,
 	},
 }

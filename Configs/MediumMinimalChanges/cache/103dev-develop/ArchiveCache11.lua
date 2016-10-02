@@ -9091,8 +9091,8 @@ local archiveCache = {
 		},
 		{
 			name = "bitmaps.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-134-g819e5b4\base\spring\]],
-			modified = "1474950745",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-106-gb7a1524\base\spring\]],
+			modified = "1475396508",
 			checksum = "0",
 			archivedata = {
 				description = "Various bitmaps used by spring",
@@ -9757,7 +9757,7 @@ local archiveCache = {
 		{
 			name = "caiFight_2016_09.sdd",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1475384045",
+			modified = "1475399418",
 			checksum = "0",
 			archivedata = {
 				description = "Mission Mutator",
@@ -10528,8 +10528,8 @@ local archiveCache = {
 		},
 		{
 			name = "cursors.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-134-g819e5b4\base\]],
-			modified = "1474950745",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-106-gb7a1524\base\]],
+			modified = "1475396508",
 			checksum = "0",
 			archivedata = {
 				description = "Cursor pack by Erom",
@@ -15748,8 +15748,8 @@ local archiveCache = {
 		},
 		{
 			name = "maphelper.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-134-g819e5b4\base\]],
-			modified = "1474950745",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-106-gb7a1524\base\]],
+			modified = "1475396508",
 			checksum = "0",
 			archivedata = {
 				description = "Maps can use this archive for its lua tdf parser",
@@ -17295,8 +17295,8 @@ local archiveCache = {
 		},
 		{
 			name = "springcontent.sdz",
-			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-134-g819e5b4\base\]],
-			modified = "1474950745",
+			path = [[C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-106-gb7a1524\base\]],
+			modified = "1475396508",
 			checksum = "0",
 			archivedata = {
 				description = "Mods can depend on this archive to get all the spring content",
@@ -17323,7 +17323,7 @@ local archiveCache = {
 		{
 			name = "staticBase.sdd",
 			path = [[C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games\]],
-			modified = "1475385618",
+			modified = "1475385818",
 			checksum = "0",
 			archivedata = {
 				description = "Mission Mutator",
@@ -19343,7 +19343,37 @@ local archiveCache = {
 		},
 	},
 
-	brokenArchives = {  -- count = 0
+	brokenArchives = {  -- count = 6
+		{
+			name = "cai fight 1016 09",
+			modified = "0",
+			problem = "Unable to open archive",
+		},
+		{
+			name = "comet catcher redux",
+			modified = "0",
+			problem = "Unable to open archive",
+		},
+		{
+			name = "map helper v1",
+			modified = "0",
+			problem = "Unable to open archive",
+		},
+		{
+			name = "spring bitmaps",
+			modified = "0",
+			problem = "Unable to open archive",
+		},
+		{
+			name = "spring content v1",
+			modified = "0",
+			problem = "Unable to open archive",
+		},
+		{
+			name = "zero-k v1.4.9.3",
+			modified = "0",
+			problem = "Unable to open archive",
+		},
 	},
 }
 
