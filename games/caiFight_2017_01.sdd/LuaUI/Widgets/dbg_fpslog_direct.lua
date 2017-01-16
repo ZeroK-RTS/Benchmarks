@@ -81,6 +81,7 @@ function widget:Update(dt)
 		end
 	end
 	if frame > LOG_END and not debugView then
+		Spring.SendCommands("debuginfo profiling")
 		Spring.SendCommands("gameinfo")
 		Spring.SendCommands("debug")
 		debugView = true
