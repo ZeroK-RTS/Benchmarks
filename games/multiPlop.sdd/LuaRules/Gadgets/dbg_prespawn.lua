@@ -31,29 +31,24 @@ local positions = {
 function gadget:GameFrame(f)
 	if f == 20 then
 		local defID = UnitDefNames["corned"].id
-		Spring.CreateUnit(defID, 0, 0, 0, 0, 0)
+		local teamList = Spring.GetTeamList()
+		for i = 1, #teamList do
+			local x, z
+			if i <= 6 then
+				x = left - 100
+				z = positions[i]
+			else
+				x = right + 100
+				z = positions[i - 6]
+			end
+			if x and z then
+				local teamID = teamList[i]
+				local unitID = Spring.CreateUnit(defID, x, 0, z, 0, teamID)
+				--Spring.SetUnitRulesParam(unitID, "facplop", 1)
+			end
+		end
 	end
-	--
-	--if f == 20 then
-	--	local defID = UnitDefNames["corned"].id
-	--	local teamList = Spring.GetTeamList()
-	--	for i = 1, #teamList do
-	--		local x, z
-	--		if i <= 6 then
-	--			x = left - 100
-	--			z = positions[i]
-	--		else
-	--			x = right + 100
-	--			z = positions[i - 6]
-	--		end
-	--		if x and z then
-	--			local teamID = teamList[i]
-	--			local unitID = Spring.CreateUnit(defID, x, 0, z, 0, teamID)
-	--			--Spring.SetUnitRulesParam(unitID, "facplop", 1)
-	--		end
-	--	end
-	--end
-	--
+	
 	--if f > 30 and f <= 42 then
 	--	local defID = UnitDefNames["factoryshield"].id
 	--	local i = f - 30
