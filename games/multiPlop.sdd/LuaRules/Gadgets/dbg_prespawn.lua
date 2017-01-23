@@ -30,7 +30,7 @@ local positions = {
 
 function gadget:GameFrame(f)
 	if f == 20 then
-		local defID = UnitDefNames["dyntrainer_support_base"].id
+		local defID = UnitDefNames["corned"].id
 		local teamList = Spring.GetTeamList()
 		for i = 1, #teamList do
 			local x, z
@@ -68,3 +68,64 @@ function gadget:GameFrame(f)
 	--	end
 	--end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
