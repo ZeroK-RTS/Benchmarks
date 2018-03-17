@@ -30,7 +30,7 @@ local positions = {
 
 function gadget:GameFrame(f)
 	if f == 20 then
-		local defID = UnitDefNames["corned"].id
+		local defID = UnitDefNames["dynsupport1"].id
 		local teamList = Spring.GetTeamList()
 		for i = 1, #teamList do
 			local x, z
@@ -44,29 +44,29 @@ function gadget:GameFrame(f)
 			if x and z then
 				local teamID = teamList[i]
 				local unitID = Spring.CreateUnit(defID, x, 0, z, 0, teamID)
-				--Spring.SetUnitRulesParam(unitID, "facplop", 1)
+				Spring.SetUnitRulesParam(unitID, "facplop", 1)
 			end
 		end
 	end
 	
-	--if f > 30 and f <= 42 then
-	--	local defID = UnitDefNames["factoryshield"].id
-	--	local i = f - 30
-	--	local x, z
-	--	if i <= 6 then
-	--		x = left
-	--		z = positions[i]
-	--	else
-	--		x = right
-	--		z = positions[i - 6]
-	--	end
-	--	local teamID = teamList[i]
-	--	local units = Spring.GetTeamUnits(teamID)
-	--	if units and #units ~= 0 then
-	--		local unitID = units[1]
-	--		Spring.GiveOrderToUnit(unitID, -defID, {x, 0, z}, {})
-	--	end
-	--end
+	if f > 30 and f <= 42 then
+		local defID = UnitDefNames["factoryshield"].id
+		local i = f - 30
+		local x, z
+		if i <= 6 then
+			x = left
+			z = positions[i]
+		else
+			x = right
+			z = positions[i - 6]
+		end
+		local teamID = teamList[i]
+		local units = Spring.GetTeamUnits(teamID)
+		if units and #units ~= 0 then
+			local unitID = units[1]
+			Spring.GiveOrderToUnit(unitID, -defID, {x, 0, z}, {})
+		end
+	end
 end
 
 

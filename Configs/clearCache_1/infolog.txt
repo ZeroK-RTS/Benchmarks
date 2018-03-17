@@ -1,0 +1,308 @@
+Using configuration source: "C:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\clearCache_1\springsettings.cfg"
+============== <User Config> ==============
+AllowDeferredMapRendering = 1
+AllowDeferredModelRendering = 1
+BumpWaterBlurReflection = 1
+BumpWaterDepthBits = 16
+BumpWaterShoreWaves = 0
+BumpWaterTexSizeReflection = 128
+CamMode = 1
+CamTimeExponent = 4.0
+CamTimeFactor = 1.0
+DualScreenMiniMapOnLeft = 1
+EdgeMoveDynamic = 0
+EdgeMoveWidth = 0.003
+FPSFOV = 90
+FSAALevel = 2
+Fullscreen = 0
+GroundDetail = 100
+GroundScarAlphaFade = 1
+HangTimeout = 0
+HardwareCursor = 1
+InitialNetworkTimeout = 0
+InputTextGeo = 0.26 0.73 0.02 0.028
+LODScale = 1.000
+LODScaleReflection = 1.000
+LODScaleRefraction = 1.000
+LODScaleShadow = 1.000
+LastSelectedMap = Tropical
+LastSelectedMod = Zero-K $VERSION
+LastSelectedScript = Commanders
+MaxParticles = 20000
+MaxSounds = 32
+MaximumTransmissionUnit = 0
+MiddleClickScrollSpeed = -0.001
+MouseDragScrollThreshold = 0
+OverheadScrollSpeed = 50
+ReconnectTimeout = 0
+RotateLogFiles = 1
+ScrollWheelSpeed = -25
+Shadows = 1
+ShowClock = 0
+ShowPlayerInfo = 0
+SmoothLines = 1
+TreeRadius = 1000
+UnitIconDist = 151
+UnitLodDist = 9999
+UsePBO = 0
+WindowBorderless = 1
+WindowPosX = 0
+WindowPosY = 0
+snd_volmaster = 10
+============== </User Config> ==============
+Available log sections: KeyBindings, AutohostInterface, GameServer, Net, CSMFGroundTextures, RoamMeshDrawer, BumpWater, DynWater, SkyBox, DecalsDrawerGL4, FarTextureHandler, Model, Piece, OBJParser, ModelRenderContainer, Shader, Texture, Font, CregSerializer, ArchiveScanner, VFS, Sound, LuaSocket, GroundMoveType, Path
+Enabled log sections: Sound(Notice)
+Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+LogOutput initialized.
+Spring 103.0.1-402-g1f4db15 develop
+Build Environment: boost-105500, GNU libstdc++ version 20130531
+Compiler Version:  gcc-4.8.1
+Operating System:  Microsoft Windows
+Microsoft Business Edition, 64-bit (build 9200)
+Intel(R) Core(TM) i7-3930K CPU @ 3.20GHz; 16303MB RAM, 32687MB pagefile
+Word Size:         32-bit (emulated)
+         CPU Clock: std::chrono::high_resolution_clock
+Physical CPU Cores: 6
+ Logical CPU Cores: 12
+[good_fpu_init] CPU SSE mask: 127, flags:
+	SSE 1.0:  1,  SSE 2.0:  1
+	SSE 3.0:  1, SSSE 3.0:  1
+	SSE 4.1:  1,  SSE 4.2:  1
+	SSE 4.0A: 0,  SSE 5.0A: 0
+	using streflop SSE FP-math mode, CPU supports SSE instructions
+Supported Video modes on Display 1 x:0 y:0 1920x1080:
+	640x480, 720x480, 720x576, 800x600, 1280x720, 1024x768, 1280x768, 1360x768, 1366x768, 1280x800, 1152x864, 1600x900, 1280x960, 1280x1024, 1600x1024, 1680x1050, 1920x1080
+Supported Video modes on Display 2 x:1920 y:0 1920x1080:
+	640x480, 720x480, 720x576, 800x600, 1280x720, 1024x768, 1280x768, 1360x768, 1366x768, 1280x800, 1152x864, 1600x900, 1280x960, 1280x1024, 1600x1024, 1680x1050, 1920x1080
+SDL version:  linked 2.0.4; compiled 2.0.4
+GL version:   4.5.0 NVIDIA 375.95
+GL vendor:    NVIDIA Corporation
+GL renderer:  GeForce GTX 1060 6GB/PCIe/SSE2
+GLSL version: 4.50 NVIDIA
+GLEW version: 1.5.8
+Video RAM:    total 6144MB, available 5771MB
+SwapInterval: 1
+FBO::maxSamples: 32
+GL info:
+	haveARB: 1, haveGLSL: 1, ATI hacks: 0
+	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 1
+	maximum texture size: 32768, compress MIP-map textures: 0
+	maximum SmoothPointSize: 190, maximum vec4 varying/attributes: 31/16
+	maximum drawbuffers: 8, maximum recommended indices/vertices: 1048576/1048576
+	number of UniformBufferBindings: 84 (64kB)
+VSync disabled
+[InitOpenGL] video mode set to 1920x1080:24bit @60Hz (windowed)
+[WatchDog::Install] disabled
+[WatchDog] registering controls for thread [main]
+[ThreadPool::SetThreadCount][1] #wanted=6 #current=1 #max=6
+[ThreadPool::SetThreadCount][2] #threads=5
+[DataDirs] Isolation Mode!
+Using read-write data directory: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\clearCache_1\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\
+Scanning: C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\base
+Scanning: C:\Users\Tim\Documents\My Games\Spring\maps
+Scanning: C:\Users\Tim\Documents\My Games\Spring\base
+Scanning: C:\Users\Tim\Documents\My Games\Spring\games
+Scanning: C:\Users\Tim\Documents\My Games\Spring\packages
+Scanning: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
+CArchiveScanner: 85 ms
+[f=-000001] [Sound] OpenAL info:
+[f=-000001] [Sound]   Available Devices:
+[f=-000001] [Sound]               Speakers (4- USB Audio Device)
+[f=-000001] [Sound]               Realtek Digital Output (Realtek High Definition Audio)
+[f=-000001] [Sound]               Realtek Digital Output(Optical) (Realtek High Definition Audio)
+[f=-000001] [Sound]               Speakers (4- USB Audio Device)
+[f=-000001] [Sound]   Device:     OpenAL Soft
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.16.0
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFTX_HRTF ALC_SOFT_loopback ALC_SOFTX_midi_interface ALC_SOFT_pause_device
+[f=-000001] [Sound] Error:   EFX: AL_INVALID_VALUE (40963)
+[f=-000001] [Sound] Error:   Initializing EFX failed!
+[f=-000001] [Sound]   Max Sounds: 32
+[f=-000001] [WatchDog] registering controls for thread [audio]
+[f=-000001] Joysticks found: 0
+[f=-000001] [ThreadPool::SetThreadCount][1] #wanted=3 #current=6 #max=6
+[f=-000001] [ThreadPool::SetThreadCount][2] #threads=2
+[f=-000001] [Threading] Main thread CPU affinity mask set: 4092
+[f=-000001] [StartScript] Loading StartScript from: C:\Users\Tim\AppData\Local\Temp\tmp4327.tmp
+[f=-000001] Hosting on: localhost:8452
+[f=-000001] Connecting to local server
+[f=-000001] [AddGameSetupArchivesToVFS] using map: Comet Catcher Redux
+[f=-000001] Checksums: game=0x3BA095D1 map=0x3B7080C
+[f=-000001] PreGame::StartServer: 108 ms
+[f=-000001] [InitOpenGL] video mode set to 1920x1080:24bit @60Hz (windowed)
+[f=-000001] [AddGameSetupArchivesToVFS] using map: Comet Catcher Redux
+[f=-000001] [AddGameSetupArchivesToVFS] using game: CAI Fight 2017 01 (archive: caiFight_2017_01.sdd)
+[f=-000001] Recording demo to: C:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\clearCache_1\demos\20170123_083741_Comet Catcher Redux_103.0.1-402-g1f4db15 develop.sdfz
+[f=-000001] PreGame::GameDataReceived: 109 ms
+[f=-000001] [PreGame::UpdateClientNet] user number 0 (team 0, allyteam 0)
+[f=-000001] [LuaIntro] Searching for new Widgets
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Widgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemAddons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemWidgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/chili/
+[f=-000001] [LuaIntro] Found new widget "SpringLogo"
+[f=-000001] [LuaIntro] Found new widget "LoadTexture"
+[f=-000001] [LuaIntro] Found new widget "LoadProgress"
+[f=-000001] [LuaIntro] Found new widget "Main"
+[f=-000001] [LuaIntro] Found new widget "Music"
+[f=-000001] [LuaIntro] Found new widget "WM Stuff"
+[f=-000001] [LuaIntro] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaIntro] Loading widget:      WM Stuff               <wm.lua>
+[f=-000001] [LuaIntro] Loading widget:      LoadProgress           <loadprogress.lua>
+[f=-000001] [LuaIntro] Loading widget:      Main                   <main.lua>
+[f=-000001] [LuaIntro] Loading widget:      Music                  <music.lua>
+[f=-000001] [LuaIntro] Loading widget:      LoadTexture            <bg_texture.lua>
+[f=-000001] [LuaIntro] LuaIntro v1.0 (Lua 5.1)
+[f=-000001] [WatchDog] registering controls for thread [load]
+[f=-000001] Parsing Map Information
+[f=-000001] Loading SMF
+[f=-000001] Loading Map (77 MB)
+[f=-000001] Loading Radar Icons
+[f=-000001] Loading GameData Definitions
+[f=-000001] Loading UnitDefs_posts
+[f=-000001] [gamedata/modularcomms/unitdefgen.lua] Warning: Modular Comms warning: Comm data entry in modoption is empty or in invalid format
+[f=-000001] Loacing FeatureDefs_posts
+[f=-000001] Loading WeaponDefs_posts
+[f=-000001] Loading ArmorDefs_posts
+[f=-000001] [defs.lua] loading all *Defs tables: 309ms
+[f=-000001] Game::LoadDefs (GameData): 400 ms
+[f=-000001] Loading Sound Definitions
+[f=-000001] [Sound] Warning: Sound incomingchat is missing file tag (ignoring)
+[f=-000001] [Sound]  parsed 317 sounds from gamedata/sounds.lua
+[f=-000001] [Sound] Error: Unable to open audio file: IncomingChat
+[f=-000001] [Sound] Error: CSound::GetSoundId: could not find sound: IncomingChat
+[f=-000001] Game::LoadDefs (Sound): 12 ms
+[f=-000001] Creating Smooth Height Mesh
+[f=-000001] SmoothHeightMesh::MakeSmoothMesh: 27 ms
+[f=-000001] Creating QuadField & CEGs
+[f=-000001] [CDamageArrayHandler] number of ArmorDefs: 5
+[f=-000001] Warning: [CDamageArrayHandler] UnitDef "chicken" in ArmorDef "chicken" already belongs to ArmorDef category 1!
+[f=-000001] [RegisterAssimpModelFormats] supported Assimp model formats: *.3ds;*.blend;*.dae;*.lwo;
+[f=-000001] Creating Unit Textures
+[f=-000001] Creating Sky
+[f=-000001] Loading Weapon Definitions
+[f=-000001] [SpringApp::ShutDown][1]
+[f=-000001] [ThreadPool::SetThreadCount][1] #wanted=0 #current=3 #max=6
+[f=-000001] [ThreadPool::SetThreadCount][2] #threads=0
+[f=-000001] [SpringApp::ShutDown][2]
+[f=-000001] [KillLua][1]
+[f=-000001] [KillLua][2]
+[f=-000001] [KillLua][3]
+[f=-000001] [KillLua][4]
+[f=-000001] [~CGame]1]
+[f=-000001] [KillLua][1]
+[f=-000001] [KillLua][2]
+[f=-000001] [KillLua][3]
+[f=-000001] [KillLua][4]
+[f=-000001] [KillMisc][1]
+[f=-000001] Error: Spring 103.0.1-402-g1f4db15 develop has crashed.
+[f=-000001] Error: DLL information:
+[f=-000001] Error: 0x00400000	spring
+[f=-000001] Error: 0x777c0000	ntdll
+[f=-000001] Error: 0x74280000	KERNEL32
+[f=-000001] Error: 0x75290000	KERNELBASE
+[f=-000001] Error: 0x70ca0000	avghookx
+[f=-000001] Error: 0x75d70000	ADVAPI32
+[f=-000001] Error: 0x74690000	msvcrt
+[f=-000001] Error: 0x75df0000	sechost
+[f=-000001] Error: 0x77280000	RPCRT4
+[f=-000001] Error: 0x74260000	SspiCli
+[f=-000001] Error: 0x74250000	CRYPTBASE
+[f=-000001] Error: 0x758e0000	bcryptPrimitives
+[f=-000001] Error: 0x75d50000	IMAGEHLP
+[f=-000001] Error: 0x750f0000	ucrtbase
+[f=-000001] Error: 0x75e90000	SHELL32
+[f=-000001] Error: 0x758a0000	cfgmgr32
+[f=-000001] Error: 0x74a70000	windows.storage
+[f=-000001] Error: 0x75670000	combase
+[f=-000001] Error: 0x74810000	powrprof
+[f=-000001] Error: 0x75e40000	shlwapi
+[f=-000001] Error: 0x747e0000	GDI32
+[f=-000001] Error: 0x74530000	gdi32full
+[f=-000001] Error: 0x74360000	USER32
+[f=-000001] Error: 0x751f0000	win32u
+[f=-000001] Error: 0x75bb0000	kernel.appcore
+[f=-000001] Error: 0x75050000	shcore
+[f=-000001] Error: 0x75890000	profapi
+[f=-000001] Error: 0x75940000	WS2_32
+[f=-000001] Error: 0x6ad20000	GLU32
+[f=-000001] Error: 0x65df0000	OPENGL32
+[f=-000001] Error: 0x10000000	DevIL
+[f=-000001] Error: 0x6b800000	OpenAL32
+[f=-000001] Error: 0x75440000	ole32
+[f=-000001] Error: 0x70780000	vorbisfile
+[f=-000001] Error: 0x62e80000	zlib1
+[f=-000001] Error: 0x70e40000	libfreetype-6
+[f=-000001] Error: 0x65180000	libfontconfig-1
+[f=-000001] Error: 0x62aa0000	glew32
+[f=-000001] Error: 0x6c740000	SDL2
+[f=-000001] Error: 0x75b30000	IMM32
+[f=-000001] Error: 0x74860000	OLEAUT32
+[f=-000001] Error: 0x75210000	msvcp_win
+[f=-000001] Error: 0x64210000	DDRAW
+[f=-000001] Error: 0x70c10000	MSVCP80
+[f=-000001] Error: 0x6fe90000	MSVCR80
+[f=-000001] Error: 0x69680000	WINMM
+[f=-000001] Error: 0x68140000	ogg
+[f=-000001] Error: 0x64cc0000	vorbis
+[f=-000001] Error: 0x68f40000	libexpat-1
+[f=-000001] Error: 0x741b0000	VERSION
+[f=-000001] Error: 0x6ab30000	DCIMAN32
+[f=-000001] Error: 0x69150000	WINMMBASE
+[f=-000001] Error: 0x699e0000	gameoverlayrenderer
+[f=-000001] Error: 0x75040000	PSAPI
+[f=-000001] Error: 0x61fe0000	nvapi
+[f=-000001] Error: 0x77350000	SETUPAPI
+[f=-000001] Error: 0x67040000	dxgi
+[f=-000001] Error: 0x70dc0000	uxtheme
+[f=-000001] Error: 0x04420000	MSCTF
+[f=-000001] Error: 0x69b10000	dwmapi
+[f=-000001] Error: 0x05740000	nvoglv32
+[f=-000001] Error: 0x69930000	WTSAPI32
+[f=-000001] Error: 0x71900000	DEVOBJ
+[f=-000001] Error: 0x75b60000	WINTRUST
+[f=-000001] Error: 0x750e0000	MSASN1
+[f=-000001] Error: 0x759b0000	CRYPT32
+[f=-000001] Error: 0x698d0000	ntmarta
+[f=-000001] Error: 0x66af0000	WINSTA
+[f=-000001] Error: 0x74750000	clbcatq
+[f=-000001] Error: 0x66b40000	MMDevApi
+[f=-000001] Error: 0x66800000	PROPSYS
+[f=-000001] Error: 0x5b310000	AUDIOSES
+[f=-000001] Error: 0x5b240000	wintypes
+[f=-000001] Error: 0x741c0000	shfolder
+[f=-000001] Error: 0x63200000	dsound
+[f=-000001] Error: 0x670f0000	dinput8
+[f=-000001] Error: 0x56110000	HID
+[f=-000001] Error: 0x6ab20000	XInput1_4
+[f=-000001] Error: 0x69780000	dbghelp
+[f=-000001] Error: Exception: Access violation (0xc0000005)
+[f=-000001] Error: Exception Address: 0x777fff33
+[f=-000001] Error: Stacktrace for Spring 103.0.1-402-g1f4db15 develop:
+[f=-000001] Error: (0) C:\WINDOWS\SYSTEM32\ntdll.dll [0x0003FF33]
+[f=-000001] Error: (1) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x0086A36F]
+[f=-000001] Error: (2) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x0044EF13]
+[f=-000001] Error: (3) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x0043163D]
+[f=-000001] Error: (4) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x0043619F]
+[f=-000001] Error: (5) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x00CE3780]
+[f=-000001] Error: (6) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x00808F3A]
+[f=-000001] Error: (7) C:\Users\Tim\Documents\My Games\Spring\engine\103.0.1-402-g1f4db15_32bit\spring.exe [0x00D0C874]
+[f=-000001] Error: (8) C:\WINDOWS\System32\msvcrt.dll [0x000673A6]
+[f=-000001] Error: (9) C:\WINDOWS\System32\msvcrt.dll [0x00067471]
+[f=-000001] Error: (10) C:\WINDOWS\System32\KERNEL32.DLL [0x000162C4]
+[f=-000001] Error: (11) C:\WINDOWS\SYSTEM32\ntdll.dll [0x00060FD9]
+[f=-000001] Error: (12) C:\WINDOWS\SYSTEM32\ntdll.dll [0x00060FA4]
+[f=-000001] Error: [ErrorMessageBox][1] msg="Spring has crashed:
+  Access violation.
+
+A stacktrace has been written to:
+  C:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\clearCache_1\infolog.txt" IsMainThread()=0 fromMain=0
+[f=-000001] Error: [ErrorMessageBox][1] msg="thread interrupted" IsMainThread()=0 fromMain=0

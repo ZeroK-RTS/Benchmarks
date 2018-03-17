@@ -326,7 +326,7 @@
 		NumAllies=0;
 	}
 
-	DemoFile=demos/20170119_005039_Comet Catcher Redux_103.0.1-511-g12f211a develop.sdfz;
+	DemoFile=demos/20170214_005607_Comet Catcher Redux_103.0.1-594-gdc2ccf6 blockMaps.sdfz;
 	startpostype=2;
 	gametype=whatever;
 	ishost=1;
