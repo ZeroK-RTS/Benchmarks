@@ -222,5 +222,9 @@ return {
 		{"rawmove", "m"}, 
 		{"hideinterfaceandcursor", "Any+f5"}, 
 		{"togglestatsgraph", "A+f1"}, 
+		{"pushpull", "o"}, 
+		{"settargetcircle", "t"}, 
+		{"select AllMap+_NameContain_Raptor+_ClearSelection_SelectAll+", "ctrl+g"}, 
+		{"HideInterface", "None"}, 
 	}, 
 }

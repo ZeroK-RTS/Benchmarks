@@ -835,5 +835,17 @@ return {
 			[1] = "togglestatsgraph",
 			[2] = "A+f1",
 		},
+		[200] = {
+			[1] = "pushpull",
+			[2] = "o",
+		},
+		[201] = {
+			[1] = "settargetcircle",
+			[2] = "t",
+		},
+		[202] = {
+			[1] = "select AllMap+_NameContain_Raptor+_ClearSelection_SelectAll+",
+			[2] = "ctrl+g",
+		},
 	},
 }

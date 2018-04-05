@@ -16,7 +16,7 @@ end
 
 function gadget:GameFrame(f)
 	if f == 20 then
-		local defID = UnitDefNames["corned"].id
+		local defID = (UnitDefNames["vehcon"] or UnitDefNames["corned"]).id
 		Spring.CreateUnit(defID, 0, 0, 0, 0, 0)
 	end
 end

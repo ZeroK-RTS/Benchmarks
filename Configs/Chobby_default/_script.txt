@@ -326,7 +326,7 @@ name=UnnamedPlayer;
 mapname=Comet Catcher Redux;
 myplayername=UnnamedPlayer;
 startpostype=2;
-gametype=caiFight_2017_06fix.sdd;
+gametype=caiFight_2018_04.sdd;
 onlylocal=1;
 ishost=1;
 }

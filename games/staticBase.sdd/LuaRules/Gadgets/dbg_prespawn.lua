@@ -10,7 +10,7 @@ function gadget:GetInfo()
 	}
 end
 
-local spawnUnitDefID = UnitDefNames["armwin"].id
+local spawnUnitDefID = (UnitDefNames["energywind"] or UnitDefNames["armwin"]).id
 
 if not (gadgetHandler:IsSyncedCode()) then
 	return 
