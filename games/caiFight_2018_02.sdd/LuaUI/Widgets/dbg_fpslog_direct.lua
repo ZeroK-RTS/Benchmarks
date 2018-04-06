@@ -12,9 +12,15 @@ end
 local LOG_START = 30*60*10
 local LOG_END = LOG_START + 60*30
 local EXIT_TIME = LOG_END + 30*5
+local SPEEDY_FPS_START = 30*60
+local SPEEDY_FPS_END = 30*60*9
 local normalSpeedTime = LOG_START - 30*5
 
+local FPS_RANGE_SIZE = 2.5
+local FPS_RANGE_COUNT = 20
+
 local fpsRange = {}
+local speedyFpsRange = {}
 
 local debugView = false
 
@@ -76,8 +82,15 @@ function widget:Update(dt)
 		Spring.Echo("!transmitlobby w_update_dt: "..dt)
 		if dt > 0 then
 			local fps = 1/dt
-			local range = math.min(12, math.max(0, math.floor(fps/5))) + 1
+			local range = math.min(FPS_RANGE_COUNT, math.max(0, math.floor(fps/FPS_RANGE_SIZE))) + 1
 			fpsRange[range] = (fpsRange[range] or 0) + 1
+		end
+	end
+	if frame > SPEEDY_FPS_START and frame < SPEEDY_FPS_END then
+		if dt > 0 then
+			local fps = 1/dt
+			local range = math.min(FPS_RANGE_COUNT, math.max(0, math.floor(fps/FPS_RANGE_SIZE))) + 1
+			speedyFpsRange[range] = (speedyFpsRange[range] or 0) + 1
 		end
 	end
 	if frame > LOG_END and not debugView then
@@ -89,10 +102,15 @@ function widget:Update(dt)
 	if (frame > EXIT_TIME) then
 		--Spring.SendCommands("screenshot")
 		
-		for i = 1, 12 do
-			Spring.Echo("!transmitlobby fps_" .. (i - 1)*5 .. "_" .. i*5 .. ": " .. (fpsRange[i] or 0))
+		for i = 1, FPS_RANGE_COUNT do
+			Spring.Echo("!transmitlobby fps_" .. (i - 1)*FPS_RANGE_SIZE .. "_" .. i*FPS_RANGE_SIZE .. ": " .. (fpsRange[i] or 0))
 		end
-		Spring.Echo("!transmitlobby fps_over_60: " .. (fpsRange[13] or 0))
+		Spring.Echo("!transmitlobby fps_over_60: " .. (fpsRange[FPS_RANGE_COUNT + 1] or 0))
+		
+		for i = 1, FPS_RANGE_COUNT do
+			Spring.Echo("!transmitlobby speedy_fps_" .. (i - 1)*FPS_RANGE_SIZE .. "_" .. i*FPS_RANGE_SIZE .. ": " .. (speedyFpsRange[i] or 0))
+		end
+		Spring.Echo("!transmitlobby speedy_fps_over_" .. (FPS_RANGE_SIZE*FPS_RANGE_COUNT) .. ": " .. (speedyFpsRange[FPS_RANGE_COUNT + 1] or 0))
 		
 		local units = spGetAllUnits()
 		Spring.Echo("!transmitlobby units_end: " .. #units)

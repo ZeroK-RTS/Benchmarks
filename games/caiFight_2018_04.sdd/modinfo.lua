@@ -1,7 +1,7 @@
 local modinfo = {
-  name          =	[[CAI Fight 2017 06 fix]],
+  name          =	[[CAI Fight 2018 04]],
   description   =	[[Mission Mutator]],
   modtype       =	[[1]],
-  depend = {'Zero-K test-13099-21239a1'},
+  depend = {'Zero-K v1.6.4.4'},
 }
 return modinfo

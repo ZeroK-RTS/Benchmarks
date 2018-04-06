@@ -184,7 +184,7 @@ return {
 	urban_skirmish_v1 = 17.5460129,
 	wanderlust_V01 = 122.671997,
 	[""] = {
-		["Comet Catcher Redux"] = 26.0075493,
+		["Comet Catcher Redux"] = 25.7912979,
 		["DeltaSiegeDry Deluxe V3"] = 19.5858116,
 		TitanDuel = 10.8580017,
 	},

@@ -225,6 +225,5 @@ return {
 		{"pushpull", "o"}, 
 		{"settargetcircle", "t"}, 
 		{"select AllMap+_NameContain_Raptor+_ClearSelection_SelectAll+", "ctrl+g"}, 
-		{"HideInterface", "None"}, 
 	}, 
 }

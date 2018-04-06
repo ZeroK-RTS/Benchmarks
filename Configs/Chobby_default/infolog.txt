@@ -1,5 +1,5 @@
 Using writeable configuration source: "E:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Chobby_default\springsettings.cfg"
-Available log sections: RoamMeshDrawer, FarTextureHandler, GroundMoveType, AutohostInterface, Path, Font, KeyBindings, GameServer, VFS, Net, Sound, Texture, BumpWater, ArchiveScanner, Shader, DecalsDrawerGL4, CSMFGroundTextures, Piece, ModelRenderContainer, LuaSocket, DynWater, CregSerializer, SkyBox, Model
+Available log sections: GameServer, Sound, Path, BumpWater, ArchiveScanner, KeyBindings, CSMFGroundTextures, LuaSocket, CregSerializer, RoamMeshDrawer, FarTextureHandler, GroundMoveType, Texture, AutohostInterface, Font, Shader, DecalsDrawerGL4, Piece, ModelRenderContainer, SkyBox, VFS, Model, DynWater, Net
 Enabled log sections: Sound(Notice)
 Enable or disable log sections using the LogSections configuration key
   or the SPRING_LOG_SECTIONS environment variable (both comma separated).
@@ -59,7 +59,7 @@ LogOutput initialized.
   snd_volmaster = 0
 ============== </User Config> ==============
 ============== <User System> ==============
-  Spring 104.0.1-358-gb58f0bb maintenance
+  Spring 104.0.1-308-g17ff6c0 maintenance
     Build Environment: boost-105500, GNU libstdc++ version 20130531
      Compiler Version: gcc-4.8.1
      Operating System: Microsoft Windows
@@ -103,7 +103,7 @@ Intel(R) Core(TM) i7-3930K CPU @ 3.20GHz; 16303MB RAM, 18735MB pagefile
 	GL renderer : GeForce GTX 1060 6GB/PCIe/SSE2
 	GLSL version: 4.60 NVIDIA
 	GLEW version: 2.1.0
-	GPU memory  : 6144MB (total) / 2606MB (available)
+	GPU memory  : 6144MB (total) / 5768MB (available)
 	SDL swap-int: 1
 	
 	ARB shader support        : 1
@@ -137,24 +137,24 @@ Intel(R) Core(TM) i7-3930K CPU @ 3.20GHz; 16303MB RAM, 18735MB pagefile
 Using read-write data directory: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Chobby_default\
 Using read-only data directory: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\
 Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\
-Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\engine\win64\104.0.1-358-gb58f0bb\
-Scanning: C:\Users\Tim\Documents\My Games\Spring\engine\win64\104.0.1-358-gb58f0bb\base
+Using read-only data directory: C:\Users\Tim\Documents\My Games\Spring\engine\win64\104.0.1-308-g17ff6c0\
+Scanning: C:\Users\Tim\Documents\My Games\Spring\engine\win64\104.0.1-308-g17ff6c0\base
 Scanning: C:\Users\Tim\Documents\My Games\Spring\maps
 Scanning: C:\Users\Tim\Documents\My Games\Spring\games
 Scanning: C:\Users\Tim\Documents\My Games\Spring\packages
 Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
-[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 15ms
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 13ms
 [WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
 [ThreadPool::SetThreadCount][1] wanted=3 current=1 maximum=6 (init=1)
 [ThreadPool::SetThreadCount][2] workers=2
 [Threading] Main thread CPU affinity mask set: 4092
-[f=-000001] [~ScopedOnceTimer][ISound::Init::New] 0ms
+[f=-000001] [~ScopedOnceTimer][ISound::Init::New] 1ms
 [f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.0ms)
 [f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
 [f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
 [f=-000001] [Sound] [Sound::InitThread][1]
 [f=-000001] [Sound] [Sound::OpenLoopbackDevice] opening default device
-[f=-000001] [Sound] [Sound::OpenLoopbackDevice] device=08749040 context=081157b8
+[f=-000001] [Sound] [Sound::OpenLoopbackDevice] device=08a2abf0 context=08917250
 [f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
 [f=-000001] [Sound]   Vendor:         OpenAL Community
 [f=-000001] [Sound]   Version:        1.1 ALSOFT 1.16.0
@@ -171,8 +171,8 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] [Sound] Error:   EFX: AL_INVALID_VALUE (40963)
 [f=-000001] [Sound] Error:   Initializing EFX failed!
 [f=-000001] [Sound] [Sound::UpdateThread][2]
-[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 101ms
-[f=-000001] [StartScript] Loading StartScript from: C:\Users\Tim\AppData\Local\Temp\tmpD2D8.tmp
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 100ms
+[f=-000001] [StartScript] Loading StartScript from: C:\Users\Tim\AppData\Local\Temp\tmpC83.tmp
 [f=-000001] [CPreGame] server using IP localhost and port 8452
 [f=-000001] [NetProto::InitLocalClient] connecting to local server
 [f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Comet Catcher Redux
@@ -188,13 +188,13 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] 	file="anims/cursorattack.txt" indx=2 inflSize=0kb readTime=0ms
 [f=-000001] 	file="anims/cursorattack_3.png" indx=6 inflSize=1kb readTime=0ms
 [f=-000001] [PreGame::StartServer] checksums: game=0xDD4EF0C9 map=0x3B7080C
-[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 109ms
+[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 108ms
 [f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@60Hz (windowed::borderless)
 [f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@60Hz (windowed::borderless)
 [f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Comet Catcher Redux
 [f=-000001] [PreGame::AddGameSetupArchivesToVFS] using game: CAI Fight 2018 04 (archive: caiFight_2018_04.sdd)
-[f=-000001] PreGame::GameDataReceived] recording demo to "E:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Chobby_default\demos\20180405_232410_Comet Catcher Redux_104.0.1-358-gb58f0bb maintenance.sdfz"
-[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 100ms
+[f=-000001] PreGame::GameDataReceived] recording demo to "E:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Chobby_default\demos\20180406_074018_Comet Catcher Redux_104.0.1-308-g17ff6c0 maintenance.sdfz"
+[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 104ms
 [f=-000001] [PreGame::UpdateClientNet] received user number 0 (team 0, allyteam 0), creating load-screen
 [f=-000001] [LuaIntro] Searching for new Widgets
 [f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
@@ -220,14 +220,14 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] Parsing Map Information
 [f=-000001] Loading SMF
 [f=-000001] Loading Map (77 MB)
+[f=-000001] Loading Radar Icons
 [f=-000001] Loading GameData Definitions
 [f=-000001] Loading UnitDefs_posts
 [f=-000001] Loading FeatureDefs_posts
 [f=-000001] Loading WeaponDefs_posts
 [f=-000001] Loading ArmorDefs_posts
-[f=-000001] [defs.lua] loading all *Defs tables: 353ms
-[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 483ms
-[f=-000001] Loading Radar Icons
+[f=-000001] [defs.lua] loading all *Defs tables: 300ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 423ms
 [f=-000001] Loading Sound Definitions
 [f=-000001] [Sound] Warning: Sound incomingchat is missing file tag (ignoring)
 [f=-000001] [Sound]  parsed 324 sounds from gamedata/sounds.lua
@@ -245,11 +245,11 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] Creating Sky
 [f=-000001] [Game::LoadGame][3] globalQuit=0 forcedQuit=0
 [f=-000001] Loading Weapon Definitions
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 3237ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 2885ms
 [f=-000001] Loading Unit Definitions
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 310ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 237ms
 [f=-000001] Loading Feature Definitions
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 50ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 48ms
 [f=-000001] [IPathManager::GetInstance] using HAPFS
 [f=-000001] Initializing Map Features
 [f=-000001] Creating ShadowHandler
@@ -266,7 +266,7 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] Creating Projectile Textures
 [f=-000001] Creating Water
 [f=-000001] [Game::LoadGame][4] globalQuit=0 forcedQuit=0
-[f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Camera&Mouse)] 161ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Camera&Mouse)] 174ms
 [f=-000001] [Sound] Error: [LoadSoundBuffer] unable to open audio file "MultiSelect"
 [f=-000001] [Sound] Error: [Sound::GetSoundId] could not find sound "MultiSelect"
 [f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Console)] 17ms
@@ -276,29 +276,29 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] Synced LuaRules: starting loading
 [f=-000001] [gadgets.lua] Error: Failed to load: endgame_graphs.lua  ([string "LuaRules/Gadgets/endgame_graphs.lua"]:63: attempt to index global 'fdef' (a nil value))
 [f=-000001] AI taken control of team 0 on allyTeam 0
-[f=-000001] CAI: team 0 has selected strategy: Blitz, using commander dyntrainer_recon_base
+[f=-000001] CAI: team 0 has selected strategy: Blitz, using commander dyntrainer_strike_base
 [f=-000001] AI taken control of team 1 on allyTeam 1
-[f=-000001] CAI: team 1 has selected strategy: Econ, using commander dyntrainer_strike_base
+[f=-000001] CAI: team 1 has selected strategy: Defensive, using commander dyntrainer_assault_base
 [f=-000001] AI taken control of team 2 on allyTeam 0
 [f=-000001] CAI: team 2 has selected strategy: Standard, using commander dyntrainer_strike_base
 [f=-000001] AI taken control of team 3 on allyTeam 1
-[f=-000001] CAI: team 3 has selected strategy: Econ, using commander dyntrainer_support_base
+[f=-000001] CAI: team 3 has selected strategy: Defensive, using commander dyntrainer_strike_base
 [f=-000001] AI taken control of team 4 on allyTeam 0
-[f=-000001] CAI: team 4 has selected strategy: Standard, using commander dyntrainer_strike_base
+[f=-000001] CAI: team 4 has selected strategy: Defensive, using commander dyntrainer_assault_base
 [f=-000001] AI taken control of team 5 on allyTeam 1
-[f=-000001] CAI: team 5 has selected strategy: Blitz, using commander dyntrainer_recon_base
+[f=-000001] CAI: team 5 has selected strategy: Econ, using commander dyntrainer_strike_base
 [f=-000001] AI taken control of team 6 on allyTeam 0
 [f=-000001] CAI: team 6 has selected strategy: Defensive, using commander dyntrainer_assault_base
 [f=-000001] AI taken control of team 7 on allyTeam 1
-[f=-000001] CAI: team 7 has selected strategy: Standard, using commander dyntrainer_strike_base
+[f=-000001] CAI: team 7 has selected strategy: Push, using commander dyntrainer_assault_base
 [f=-000001] AI taken control of team 8 on allyTeam 0
-[f=-000001] CAI: team 8 has selected strategy: Defensive, using commander dyntrainer_assault_base
+[f=-000001] CAI: team 8 has selected strategy: Push, using commander dyntrainer_assault_base
 [f=-000001] AI taken control of team 9 on allyTeam 1
-[f=-000001] CAI: team 9 has selected strategy: Econ, using commander dyntrainer_support_base
+[f=-000001] CAI: team 9 has selected strategy: Push, using commander dyntrainer_assault_base
 [f=-000001] AI taken control of team 10 on allyTeam 0
-[f=-000001] CAI: team 10 has selected strategy: Blitz, using commander dyntrainer_strike_base
+[f=-000001] CAI: team 10 has selected strategy: Standard, using commander dyntrainer_strike_base
 [f=-000001] AI taken control of team 11 on allyTeam 1
-[f=-000001] CAI: team 11 has selected strategy: Push, using commander dyntrainer_assault_base
+[f=-000001] CAI: team 11 has selected strategy: Econ, using commander dyntrainer_support_base
 [f=-000001] Ally Team 0 intialised
 [f=-000001] Team 0 on allyTeam 0
 [f=-000001] Team 2 on allyTeam 0
@@ -1109,36 +1109,36 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] [Game::LoadGame][5] globalQuit=0 forcedQuit=0
 [f=-000001] [LoadFinalize] finalizing PFS
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] BLOCK_SIZE=16
-[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] PATHESTIMATOR_VERSION=92
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] PATHESTIMATOR_VERSION=90
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] heightMapChecksum=95d9f02f
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] typeMapChecksum=37560093
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] moveDefChecksum=35c062f7
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] blockMapChecksum=29a
-[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] estimatorHashCode=2f056bf
-[f=-000001] [Path] [PathEstimator::ReadFile] hash=2f056bf file="cache\104dev-maintenance/paths/Comet Catcher Redux.pe-2f056bf.zip" (exists=1)
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] estimatorHashCode=2f056bd
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=2f056bd file="cache\104dev-maintenance/paths/Comet Catcher Redux.pe-2f056bd.zip" (exists=1)
 [f=-000001] Reading Estimate PathCosts [16]
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] BLOCK_SIZE=32
-[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] PATHESTIMATOR_VERSION=92
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] PATHESTIMATOR_VERSION=90
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] heightMapChecksum=95d9f02f
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] typeMapChecksum=37560093
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] moveDefChecksum=35c062f7
 [f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] blockMapChecksum=29a
-[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] estimatorHashCode=2f056cf
-[f=-000001] [Path] [PathEstimator::ReadFile] hash=2f056cf file="cache\104dev-maintenance/paths/Comet Catcher Redux.pe2-2f056cf.zip" (exists=1)
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] estimatorHashCode=2f056cd
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=2f056cd file="cache\104dev-maintenance/paths/Comet Catcher Redux.pe2-2f056cd.zip" (exists=1)
 [f=-000001] Reading Estimate PathCosts [32]
-[f=-000001] [LoadFinalize] finalized PFS (459ms, checksum 6c054b93)
+[f=-000001] [LoadFinalize] finalized PFS (407ms, checksum 11cc1a91)
 [f=-000001] Loading Skirmish AIs
 [f=-000001] [Game::LoadGame][6] globalQuit=0 forcedQuit=0
-[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,14403,0} {chunk,block}Bytes={0,0}
+[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,14402,0} {chunk,block}Bytes={0,0}
 [f=-000001] Mex Placement Initialised with 80 spots.
 [f=-000001] UpdateInterfacePreset, minimapRight
-[f=-000001] GameID: 7a23c65ab6b5b9a1931f8997001c4c8e
+[f=-000001] GameID: c297c65ae03069f7931f899707390c79
 [f=-000001] Connection attempt from UnnamedPlayer
-[f=-000001]  -> Version: 104.0.1-358-gb58f0bb maintenance [Windows 32-bit (emulated)]
+[f=-000001]  -> Version: 104.0.1-308-g17ff6c0 maintenance [Windows 32-bit (emulated)]
 [f=-000001]  -> Connection established (given id 0)
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PreGame::GameDataReceived][map-checksums={0x3b7080c,0x3b7080c}]"
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PreGame::GameDataReceived][mod-checksums={0xdd4ef0c9,0xdd4ef0c9}]"
-[f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=df8bd2dc91f1411136227a1cb599a58ed10bca7234927e441752d1276f9a2b25e3abd0abd345c735a4672d21fecad820ba3cfac697c72947c077a0c8bb538d8e]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=f03d4bdac426a299ca270205a02250a86817e1192e48d46de7047502da952a9eda91266168d7e5e18670e751858f4e35a4068859a71ab6673330935237133b1e]"
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=4dc0fccad311ff3dd364600f9dbc56f4f29e13fd6da86152d3316eee34a0b62eb363fa7c6bcd64d5288a6437a31cc276bbd543a6b65f060104014f63bf242f96]"
 [f=-000001] Skirmish AI "Bot0" (ID:0, Short-Name:"CAI", Version:"<not-versioned>") took over control of team 0
 [f=-000001] Skirmish AI "Bot1" (ID:1, Short-Name:"CAI", Version:"<not-versioned>") took over control of team 1
@@ -1164,11 +1164,8 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=-000001] [i18n] Error: No translation found for "pw_generic.name"
 [f=-000001] [i18n] Warning: "empiricaldpsersmall.name" is not translated in en
 [f=-000001] [i18n] Error: No translation found for "empiricaldpsersmall.name"
-[f=-000001] Input grabbing is enabled!
 [f=-000001] <Ghost Site> Spectator mode. Widget removed.
 [f=-000001] Epicmenu: Switching to Total Annihilation camera mode
-[f=-000001] Input grabbing is enabled!
-[f=-000001] Input grabbing is enabled!
 [f=0000001] !transmitlobby @voice@buildUnit@add;shieldcon;Convict
 [f=0000001] !transmitlobby @voice@buildUnit@add;shieldscout;Dirtbag
 [f=0000001] !transmitlobby @voice@buildUnit@add;shieldraid;Bandit
@@ -1181,4 +1178,1110 @@ Scanning: E:\Users\Tim\Documents\My Games\Spring\Benchmarks\games
 [f=0000001] !transmitlobby @voice@buildUnit@add;shieldbomb;Snitch
 [f=0000001] !transmitlobby @voice@buildUnit@add;shieldshield;Aspis
 [f=0000001] !transmitlobby @voice@buildUnit@reload
-[f
+[f=0000011] Speed set to 20.0 [server]
+[f=0017852] !transmitlobby units_start: 700
+[f=0017852] !transmitlobby speedy_dt: 261.171997
+[f=0017853] Speed set to 1.0 [server]
+[f=0018001] !transmitlobby w_update_dt: 0.07106701
+[f=0018004] !transmitlobby w_update_dt: 0.08908401
+[f=0018005] !transmitlobby w_update_dt: 0.047545
+[f=0018007] !transmitlobby w_update_dt: 0.052048
+[f=0018009] !transmitlobby w_update_dt: 0.079075
+[f=0018011] !transmitlobby w_update_dt: 0.065061
+[f=0018013] !transmitlobby w_update_dt: 0.058555
+[f=0018015] !transmitlobby w_update_dt: 0.066062
+[f=0018016] !transmitlobby w_update_dt: 0.044542
+[f=0018017] !transmitlobby w_update_dt: 0.037536
+[f=0018019] !transmitlobby w_update_dt: 0.052549
+[f=0018020] !transmitlobby w_update_dt: 0.039037
+[f=0018021] !transmitlobby w_update_dt: 0.041038
+[f=0018023] !transmitlobby w_update_dt: 0.058056
+[f=0018025] !transmitlobby w_update_dt: 0.077072
+[f=0018028] !transmitlobby w_update_dt: 0.090085
+[f=0018030] !transmitlobby w_update_dt: 0.074569
+[f=0018033] !transmitlobby w_update_dt: 0.08410601
+[f=0018035] !transmitlobby w_update_dt: 0.082578
+[f=0018038] !transmitlobby w_update_dt: 0.095089
+[f=0018040] !transmitlobby w_update_dt: 0.057554
+[f=0018041] !transmitlobby w_update_dt: 0.049046
+[f=0018043] !transmitlobby w_update_dt: 0.050047
+[f=0018044] !transmitlobby w_update_dt: 0.044009
+[f=0018046] !transmitlobby w_update_dt: 0.06008
+[f=0018048] !transmitlobby w_update_dt: 0.066062
+[f=0018051] !transmitlobby w_update_dt: 0.09515001
+[f=0018053] !transmitlobby w_update_dt: 0.066062
+[f=0018054] !transmitlobby w_update_dt: 0.047044
+[f=0018056] !transmitlobby w_update_dt: 0.054552
+[f=0018057] !transmitlobby w_update_dt: 0.04304
+[f=0018059] !transmitlobby w_update_dt: 0.060057
+[f=0018061] !transmitlobby w_update_dt: 0.075571
+[f=0018063] !transmitlobby w_update_dt: 0.065061
+[f=0018065] !transmitlobby w_update_dt: 0.070066
+[f=0018067] !transmitlobby w_update_dt: 0.068064
+[f=0018069] !transmitlobby w_update_dt: 0.06656301
+[f=0018071] !transmitlobby w_update_dt: 0.061057
+[f=0018073] !transmitlobby w_update_dt: 0.056553
+[f=0018076] !transmitlobby w_update_dt: 0.10960501
+[f=0018079] !transmitlobby w_update_dt: 0.088081
+[f=0018081] !transmitlobby w_update_dt: 0.064061
+[f=0018082] !transmitlobby w_update_dt: 0.047544
+[f=0018084] !transmitlobby w_update_dt: 0.055052
+[f=0018085] !transmitlobby w_update_dt: 0.045043
+[f=0018086] !transmitlobby w_update_dt: 0.039536
+[f=0018088] !transmitlobby w_update_dt: 0.055553
+[f=0018089] !transmitlobby w_update_dt: 0.046043
+[f=0018092] !transmitlobby w_update_dt: 0.08157701
+[f=0018093] !transmitlobby w_update_dt: 0.05255
+[f=0018095] !transmitlobby w_update_dt: 0.056052
+[f=0018097] !transmitlobby w_update_dt: 0.066062
+[f=0018098] !transmitlobby w_update_dt: 0.041039
+[f=0018100] !transmitlobby w_update_dt: 0.057054
+[f=0018101] !transmitlobby w_update_dt: 0.040538
+[f=0018103] !transmitlobby w_update_dt: 0.057554
+[f=0018104] !transmitlobby w_update_dt: 0.051048
+[f=0018106] !transmitlobby w_update_dt: 0.06356
+[f=0018108] !transmitlobby w_update_dt: 0.061057
+[f=0018110] !transmitlobby w_update_dt: 0.055052
+[f=0018111] !transmitlobby w_update_dt: 0.047044
+[f=0018113] !transmitlobby w_update_dt: 0.049547
+[f=0018114] !transmitlobby w_update_dt: 0.047545
+[f=0018116] !transmitlobby w_update_dt: 0.056052
+[f=0018117] !transmitlobby w_update_dt: 0.044042
+[f=0018119] !transmitlobby w_update_dt: 0.05605301
+[f=0018120] !transmitlobby w_update_dt: 0.044542
+[f=0018122] !transmitlobby w_update_dt: 0.056553
+[f=0018125] !transmitlobby w_update_dt: 0.110604
+[f=0018127] !transmitlobby w_update_dt: 0.067063
+[f=0018129] !transmitlobby w_update_dt: 0.062058
+[f=0018130] !transmitlobby w_update_dt: 0.044542
+[f=0018132] !transmitlobby w_update_dt: 0.057054
+[f=0018133] !transmitlobby w_update_dt: 0.038536
+[f=0018135] !transmitlobby w_update_dt: 0.052049
+[f=0018136] !transmitlobby w_update_dt: 0.041039
+[f=0018137] !transmitlobby w_update_dt: 0.039537
+[f=0018139] !transmitlobby w_update_dt: 0.056553
+[f=0018141] !transmitlobby w_update_dt: 0.065562
+[f=0018143] !transmitlobby w_update_dt: 0.058054
+[f=0018144] !transmitlobby w_update_dt: 0.054051
+[f=0018146] !transmitlobby w_update_dt: 0.055052
+[f=0018147] !transmitlobby w_update_dt: 0.050047
+[f=0018149] !transmitlobby w_update_dt: 0.048045
+[f=0018150] !transmitlobby w_update_dt: 0.040539
+[f=0018152] !transmitlobby w_update_dt: 0.058054
+[f=0018153] !transmitlobby w_update_dt: 0.046544
+[f=0018155] !transmitlobby w_update_dt: 0.061057
+[f=0018157] !transmitlobby w_update_dt: 0.060057
+[f=0018158] !transmitlobby w_update_dt: 0.04304
+[f=0018160] !transmitlobby w_update_dt: 0.057054
+[f=0018161] !transmitlobby w_update_dt: 0.04204
+[f=0018163] !transmitlobby w_update_dt: 0.057554
+[f=0018164] !transmitlobby w_update_dt: 0.048545
+[f=0018166] !transmitlobby w_update_dt: 0.055553
+[f=0018167] !transmitlobby w_update_dt: 0.046544
+[f=0018169] !transmitlobby w_update_dt: 0.066062
+[f=0018171] !transmitlobby w_update_dt: 0.060056
+[f=0018173] !transmitlobby w_update_dt: 0.064561
+[f=0018175] !transmitlobby w_update_dt: 0.067563
+[f=0018177] !transmitlobby w_update_dt: 0.059056
+[f=0018179] !transmitlobby w_update_dt: 0.068064
+[f=0018181] !transmitlobby w_update_dt: 0.068064
+[f=0018183] !transmitlobby w_update_dt: 0.06406
+[f=0018184] !transmitlobby w_update_dt: 0.044231
+[f=0018185] !transmitlobby w_update_dt: 0.037536
+[f=0018187] !transmitlobby w_update_dt: 0.051548
+[f=0018188] !transmitlobby w_update_dt: 0.038036
+[f=0018189] !transmitlobby w_update_dt: 0.041539
+[f=0018191] !transmitlobby w_update_dt: 0.064561
+[f=0018193] !transmitlobby w_update_dt: 0.067063
+[f=0018195] !transmitlobby w_update_dt: 0.064561
+[f=0018197] !transmitlobby w_update_dt: 0.060557
+[f=0018198] !transmitlobby w_update_dt: 0.046043
+[f=0018201] !transmitlobby w_update_dt: 0.078074
+[f=0018202] !transmitlobby w_update_dt: 0.050547
+[f=0018204] !transmitlobby w_update_dt: 0.064561
+[f=0018206] !transmitlobby w_update_dt: 0.070068
+[f=0018209] !transmitlobby w_update_dt: 0.09859
+[f=0018212] !transmitlobby w_update_dt: 0.090585
+[f=0018214] !transmitlobby w_update_dt: 0.068565
+[f=0018215] !transmitlobby w_update_dt: 0.043541
+[f=0018217] !transmitlobby w_update_dt: 0.065061
+[f=0018219] !transmitlobby w_update_dt: 0.058055
+[f=0018220] !transmitlobby w_update_dt: 0.041539
+[f=0018221] !transmitlobby w_update_dt: 0.036534
+[f=0018223] !transmitlobby w_update_dt: 0.050548
+[f=0018224] !transmitlobby w_update_dt: 0.038536
+[f=0018225] !transmitlobby w_update_dt: 0.043041
+[f=0018227] !transmitlobby w_update_dt: 0.046043
+[f=0018229] !transmitlobby w_update_dt: 0.075572
+[f=0018230] !transmitlobby w_update_dt: 0.040037
+[f=0018232] !transmitlobby w_update_dt: 0.06956501
+[f=0018234] !transmitlobby w_update_dt: 0.055552
+[f=0018236] !transmitlobby w_update_dt: 0.071568
+[f=0018238] !transmitlobby w_update_dt: 0.06956501
+[f=0018240] !transmitlobby w_update_dt: 0.059556
+[f=0018242] !transmitlobby w_update_dt: 0.07457
+[f=0018243] !transmitlobby w_update_dt: 0.04204
+[f=0018245] !transmitlobby w_update_dt: 0.055552
+[f=0018247] !transmitlobby w_update_dt: 0.068064
+[f=0018249] !transmitlobby w_update_dt: 0.068065
+[f=0018251] !transmitlobby w_update_dt: 0.060556
+[f=0018253] !transmitlobby w_update_dt: 0.065061
+[f=0018255] !transmitlobby w_update_dt: 0.057555
+[f=0018256] !transmitlobby w_update_dt: 0.048045
+[f=0018258] !transmitlobby w_update_dt: 0.054051
+[f=0018259] !transmitlobby w_update_dt: 0.046503
+[f=0018261] !transmitlobby w_update_dt: 0.050047
+[f=0018263] !transmitlobby w_update_dt: 0.07306801
+[f=0018265] !transmitlobby w_update_dt: 0.061057
+[f=0018266] !transmitlobby w_update_dt: 0.043041
+[f=0018267] !transmitlobby w_update_dt: 0.043542
+[f=0018269] !transmitlobby w_update_dt: 0.052548
+[f=0018270] !transmitlobby w_update_dt: 0.046045
+[f=0018272] !transmitlobby w_update_dt: 0.06556
+[f=0018275] !transmitlobby w_update_dt: 0.10109501
+[f=0018277] !transmitlobby w_update_dt: 0.061059
+[f=0018279] !transmitlobby w_update_dt: 0.06817
+[f=0018281] !transmitlobby w_update_dt: 0.061058
+[f=0018282] !transmitlobby w_update_dt: 0.044542
+[f=0018284] !transmitlobby w_update_dt: 0.067063
+[f=0018286] !transmitlobby w_update_dt: 0.05305
+[f=0018288] !transmitlobby w_update_dt: 0.07306801
+[f=0018290] !transmitlobby w_update_dt: 0.075071
+[f=0018293] !transmitlobby w_update_dt: 0.07957701
+[f=0018295] !transmitlobby w_update_dt: 0.072566
+[f=0018296] !transmitlobby w_update_dt: 0.041539
+[f=0018298] !transmitlobby w_update_dt: 0.050047
+[f=0018299] !transmitlobby w_update_dt: 0.038578
+[f=0018300] !transmitlobby w_update_dt: 0.040538
+[f=0018302] !transmitlobby w_update_dt: 0.060057
+[f=0018305] !transmitlobby w_update_dt: 0.11169301
+[f=0018307] !transmitlobby w_update_dt: 0.07357001
+[f=0018310] !transmitlobby w_update_dt: 0.08457901
+[f=0018312] !transmitlobby w_update_dt: 0.079576
+[f=0018315] !transmitlobby w_update_dt: 0.085848
+[f=0018317] !transmitlobby w_update_dt: 0.068064
+[f=0018320] !transmitlobby w_update_dt: 0.105599
+[f=0018323] !transmitlobby w_update_dt: 0.092588
+[f=0018324] !transmitlobby w_update_dt: 0.050046
+[f=0018326] !transmitlobby w_update_dt: 0.056554
+[f=0018329] !transmitlobby w_update_dt: 0.09909601
+[f=0018331] !transmitlobby w_update_dt: 0.070075
+[f=0018333] !transmitlobby w_update_dt: 0.068065
+[f=0018335] !transmitlobby w_update_dt: 0.06356
+[f=0018337] !transmitlobby w_update_dt: 0.059055
+[f=0018340] !transmitlobby w_update_dt: 0.110104
+[f=0018342] !transmitlobby w_update_dt: 0.052049
+[f=0018343] !transmitlobby w_update_dt: 0.047565
+[f=0018345] !transmitlobby w_update_dt: 0.05355
+[f=0018346] !transmitlobby w_update_dt: 0.037549
+[f=0018347] !transmitlobby w_update_dt: 0.038537
+[f=0018348] !transmitlobby w_update_dt: 0.041039
+[f=0018350] !transmitlobby w_update_dt: 0.06406
+[f=0018353] !transmitlobby w_update_dt: 0.08708201
+[f=0018354] !transmitlobby w_update_dt: 0.04254
+[f=0018356] !transmitlobby w_update_dt: 0.065561
+[f=0018358] !transmitlobby w_update_dt: 0.060557
+[f=0018359] !transmitlobby w_update_dt: 0.043041
+[f=0018360] !transmitlobby w_update_dt: 0.044072
+[f=0018362] !transmitlobby w_update_dt: 0.059055
+[f=0018365] !transmitlobby w_update_dt: 0.090586
+[f=0018367] !transmitlobby w_update_dt: 0.08280101
+[f=0018370] !transmitlobby w_update_dt: 0.085081
+[f=0018372] !transmitlobby w_update_dt: 0.06406
+[f=0018373] !transmitlobby w_update_dt: 0.048044
+[f=0018376] !transmitlobby w_update_dt: 0.082578
+[f=0018377] !transmitlobby w_update_dt: 0.049062
+[f=0018379] !transmitlobby w_update_dt: 0.06606301
+[f=0018382] !transmitlobby w_update_dt: 0.08758101
+[f=0018384] !transmitlobby w_update_dt: 0.061058
+[f=0018385] !transmitlobby w_update_dt: 0.051077
+[f=0018387] !transmitlobby w_update_dt: 0.051548
+[f=0018388] !transmitlobby w_update_dt: 0.039538
+[f=0018389] !transmitlobby w_update_dt: 0.040052
+[f=0018392] !transmitlobby w_update_dt: 0.093837
+[f=0018394] !transmitlobby w_update_dt: 0.061558
+[f=0018395] !transmitlobby w_update_dt: 0.048059
+[f=0018398] !transmitlobby w_update_dt: 0.092573
+[f=0018401] !transmitlobby w_update_dt: 0.091586
+[f=0018402] !transmitlobby w_update_dt: 0.043541
+[f=0018403] !transmitlobby w_update_dt: 0.040538
+[f=0018405] !transmitlobby w_update_dt: 0.057554
+[f=0018407] !transmitlobby w_update_dt: 0.06206001
+[f=0018408] !transmitlobby w_update_dt: 0.045042
+[f=0018410] !transmitlobby w_update_dt: 0.052548
+[f=0018412] !transmitlobby w_update_dt: 0.06706401
+[f=0018413] !transmitlobby w_update_dt: 0.045043
+[f=0018415] !transmitlobby w_update_dt: 0.057553
+[f=0018417] !transmitlobby w_update_dt: 0.062559
+[f=0018418] !transmitlobby w_update_dt: 0.045043
+[f=0018420] !transmitlobby w_update_dt: 0.061057
+[f=0018422] !transmitlobby w_update_dt: 0.074069
+[f=0018424] !transmitlobby w_update_dt: 0.07306901
+[f=0018426] !transmitlobby w_update_dt: 0.059056
+[f=0018428] !transmitlobby w_update_dt: 0.068064
+[f=0018430] !transmitlobby w_update_dt: 0.069065
+[f=0018432] !transmitlobby w_update_dt: 0.054606
+[f=0018433] !transmitlobby w_update_dt: 0.043042
+[f=0018435] !transmitlobby w_update_dt: 0.05108
+[f=0018436] !transmitlobby w_update_dt: 0.050548
+[f=0018438] !transmitlobby w_update_dt: 0.055051
+[f=0018439] !transmitlobby w_update_dt: 0.043542
+[f=0018441] !transmitlobby w_update_dt: 0.06856401
+[f=0018444] !transmitlobby w_update_dt: 0.095089
+[f=0018446] !transmitlobby w_update_dt: 0.069065
+[f=0018448] !transmitlobby w_update_dt: 0.055052
+[f=0018449] !transmitlobby w_update_dt: 0.046044
+[f=0018452] !transmitlobby w_update_dt: 0.08658101
+[f=0018454] !transmitlobby w_update_dt: 0.083909
+[f=0018457] !transmitlobby w_update_dt: 0.085582
+[f=0018458] !transmitlobby w_update_dt: 0.04304
+[f=0018461] !transmitlobby w_update_dt: 0.106099
+[f=0018463] !transmitlobby w_update_dt: 0.064061
+[f=0018465] !transmitlobby w_update_dt: 0.066062
+[f=0018467] !transmitlobby w_update_dt: 0.064561
+[f=0018469] !transmitlobby w_update_dt: 0.06456
+[f=0018472] !transmitlobby w_update_dt: 0.092087
+[f=0018474] !transmitlobby w_update_dt: 0.070066
+[f=0018476] !transmitlobby w_update_dt: 0.060557
+[f=0018478] !transmitlobby w_update_dt: 0.06406
+[f=0018479] !transmitlobby w_update_dt: 0.041039
+[f=0018482] !transmitlobby w_update_dt: 0.108602
+[f=0018484] !transmitlobby w_update_dt: 0.069065
+[f=0018486] !transmitlobby w_update_dt: 0.055552
+[f=0018489] !transmitlobby w_update_dt: 0.09909301
+[f=0018491] !transmitlobby w_update_dt: 0.06306001
+[f=0018492] !transmitlobby w_update_dt: 0.044542
+[f=0018494] !transmitlobby w_update_dt: 0.051048
+[f=0018495] !transmitlobby w_update_dt: 0.04304
+[f=0018496] !transmitlobby w_update_dt: 0.043041
+[f=0018498] !transmitlobby w_update_dt: 0.058555
+[f=0018500] !transmitlobby w_update_dt: 0.067563
+[f=0018503] !transmitlobby w_update_dt: 0.09109201
+[f=0018505] !transmitlobby w_update_dt: 0.064059
+[f=0018506] !transmitlobby w_update_dt: 0.04204
+[f=0018508] !transmitlobby w_update_dt: 0.065561
+[f=0018510] !transmitlobby w_update_dt: 0.065062
+[f=0018512] !transmitlobby w_update_dt: 0.069065
+[f=0018514] !transmitlobby w_update_dt: 0.062058
+[f=0018515] !transmitlobby w_update_dt: 0.048046
+[f=0018517] !transmitlobby w_update_dt: 0.057054
+[f=0018519] !transmitlobby w_update_dt: 0.058554
+[f=0018521] !transmitlobby w_update_dt: 0.064561
+[f=0018522] !transmitlobby w_update_dt: 0.044542
+[f=0018523] !transmitlobby w_update_dt: 0.040538
+[f=0018525] !transmitlobby w_update_dt: 0.054551
+[f=0018527] !transmitlobby w_update_dt: 0.058055
+[f=0018528] !transmitlobby w_update_dt: 0.042039
+[f=0018529] !transmitlobby w_update_dt: 0.046044
+[f=0018531] !transmitlobby w_update_dt: 0.050047
+[f=0018532] !transmitlobby w_update_dt: 0.049547
+[f=0018534] !transmitlobby w_update_dt: 0.05355
+[f=0018535] !transmitlobby w_update_dt: 0.043541
+[f=0018537] !transmitlobby w_update_dt: 0.063059
+[f=0018538] !transmitlobby w_update_dt: 0.043041
+[f=0018540] !transmitlobby w_update_dt: 0.066062
+[f=0018542] !transmitlobby w_update_dt: 0.066062
+[f=0018544] !transmitlobby w_update_dt: 0.063059
+[f=0018546] !transmitlobby w_update_dt: 0.062058
+[f=0018548] !transmitlobby w_update_dt: 0.057054
+[f=0018550] !transmitlobby w_update_dt: 0.075071
+[f=0018552] !transmitlobby w_update_dt: 0.067563
+[f=0018555] !transmitlobby w_update_dt: 0.08858401
+[f=0018557] !transmitlobby w_update_dt: 0.077601
+[f=0018558] !transmitlobby w_update_dt: 0.041039
+[f=0018559] !transmitlobby w_update_dt: 0.037535
+[f=0018561] !transmitlobby w_update_dt: 0.052715
+[f=0018564] !transmitlobby w_update_dt: 0.09559
+[f=0018565] !transmitlobby w_update_dt: 0.048044
+[f=0018567] !transmitlobby w_update_dt: 0.062559
+[f=0018571] !transmitlobby w_update_dt: 0.13177299
+[f=0018573] !transmitlobby w_update_dt: 0.07256701
+[f=0018576] !transmitlobby w_update_dt: 0.09063701
+[f=0018578] !transmitlobby w_update_dt: 0.058554
+[f=0018580] !transmitlobby w_update_dt: 0.069065
+[f=0018581] !transmitlobby w_update_dt: 0.046044
+[f=0018583] !transmitlobby w_update_dt: 0.059556
+[f=0018585] !transmitlobby w_update_dt: 0.062558
+[f=0018586] !transmitlobby w_update_dt: 0.04208
+[f=0018589] !transmitlobby w_update_dt: 0.093109
+[f=0018592] !transmitlobby w_update_dt: 0.09759201
+[f=0018594] !transmitlobby w_update_dt: 0.077072
+[f=0018598] !transmitlobby w_update_dt: 0.12061401
+[f=0018600] !transmitlobby w_update_dt: 0.07211901
+[f=0018602] !transmitlobby w_update_dt: 0.069065
+[f=0018604] !transmitlobby w_update_dt: 0.062058
+[f=0018606] !transmitlobby w_update_dt: 0.062058
+[f=0018607] !transmitlobby w_update_dt: 0.044542
+[f=0018609] !transmitlobby w_update_dt: 0.053567
+[f=0018612] !transmitlobby w_update_dt: 0.10510001
+[f=0018613] !transmitlobby w_update_dt: 0.042539
+[f=0018615] !transmitlobby w_update_dt: 0.06606301
+[f=0018617] !transmitlobby w_update_dt: 0.053551
+[f=0018618] !transmitlobby w_update_dt: 0.048545
+[f=0018620] !transmitlobby w_update_dt: 0.055552
+[f=0018621] !transmitlobby w_update_dt: 0.044042
+[f=0018623] !transmitlobby w_update_dt: 0.056052
+[f=0018624] !transmitlobby w_update_dt: 0.04204
+[f=0018626] !transmitlobby w_update_dt: 0.059556
+[f=0018627] !transmitlobby w_update_dt: 0.046043
+[f=0018629] !transmitlobby w_update_dt: 0.057054
+[f=0018631] !transmitlobby w_update_dt: 0.066118
+[f=0018633] !transmitlobby w_update_dt: 0.07156701
+[f=0018635] !transmitlobby w_update_dt: 0.06358901
+[f=0018637] !transmitlobby w_update_dt: 0.07306901
+[f=0018640] !transmitlobby w_update_dt: 0.10109501
+[f=0018642] !transmitlobby w_update_dt: 0.066062
+[f=0018645] !transmitlobby w_update_dt: 0.081636
+[f=0018646] !transmitlobby w_update_dt: 0.053049
+[f=0018648] !transmitlobby w_update_dt: 0.059083
+[f=0018650] !transmitlobby w_update_dt: 0.067132
+[f=0018653] !transmitlobby w_update_dt: 0.092587
+[f=0018655] !transmitlobby w_update_dt: 0.06706401
+[f=0018657] !transmitlobby w_update_dt: 0.07256801
+[f=0018659] !transmitlobby w_update_dt: 0.058555
+[f=0018663] !transmitlobby w_update_dt: 0.12966101
+[f=0018665] !transmitlobby w_update_dt: 0.0676
+[f=0018667] !transmitlobby w_update_dt: 0.08157701
+[f=0018670] !transmitlobby w_update_dt: 0.09459
+[f=0018672] !transmitlobby w_update_dt: 0.076571
+[f=0018674] !transmitlobby w_update_dt: 0.065126
+[f=0018676] !transmitlobby w_update_dt: 0.060555
+[f=0018678] !transmitlobby w_update_dt: 0.06609
+[f=0018680] !transmitlobby w_update_dt: 0.06406
+[f=0018682] !transmitlobby w_update_dt: 0.070067
+[f=0018684] !transmitlobby w_update_dt: 0.066062
+[f=0018686] !transmitlobby w_update_dt: 0.07507
+[f=0018688] !transmitlobby w_update_dt: 0.062559
+[f=0018690] !transmitlobby w_update_dt: 0.062058
+[f=0018692] !transmitlobby w_update_dt: 0.068588
+[f=0018694] !transmitlobby w_update_dt: 0.05405
+[f=0018696] !transmitlobby w_update_dt: 0.075071
+[f=0018698] !transmitlobby w_update_dt: 0.057054
+[f=0018699] !transmitlobby w_update_dt: 0.048121
+[f=0018701] !transmitlobby w_update_dt: 0.051048
+[f=0018702] !transmitlobby w_update_dt: 0.049568
+[f=0018704] !transmitlobby w_update_dt: 0.057054
+[f=0018705] !transmitlobby w_update_dt: 0.044041
+[f=0018707] !transmitlobby w_update_dt: 0.05711
+[f=0018708] !transmitlobby w_update_dt: 0.046044
+[f=0018710] !transmitlobby w_update_dt: 0.05377501
+[f=0018711] !transmitlobby w_update_dt: 0.039036
+[f=0018712] !transmitlobby w_update_dt: 0.041541
+[f=0018714] !transmitlobby w_update_dt: 0.051547
+[f=0018715] !transmitlobby w_update_dt: 0.04304
+[f=0018717] !transmitlobby w_update_dt: 0.069065
+[f=0018719] !transmitlobby w_update_dt: 0.059101
+[f=0018721] !transmitlobby w_update_dt: 0.078074
+[f=0018724] !transmitlobby w_update_dt: 0.09859401
+[f=0018729] !transmitlobby w_update_dt: 0.16065101
+[f=0018733] !transmitlobby w_update_dt: 0.13716
+[f=0018735] !transmitlobby w_update_dt: 0.068106
+[f=0018737] !transmitlobby w_update_dt: 0.060586
+[f=0018738] !transmitlobby w_update_dt: 0.04306
+[f=0018740] !transmitlobby w_update_dt: 0.050547
+[f=0018742] !transmitlobby w_update_dt: 0.070567
+[f=0018743] !transmitlobby w_update_dt: 0.04423
+[f=0018745] !transmitlobby w_update_dt: 0.054051
+[f=0018746] !transmitlobby w_update_dt: 0.044542
+[f=0018748] !transmitlobby w_update_dt: 0.054551
+[f=0018749] !transmitlobby w_update_dt: 0.041565
+[f=0018751] !transmitlobby w_update_dt: 0.062058
+[f=0018753] !transmitlobby w_update_dt: 0.067063
+[f=0018755] !transmitlobby w_update_dt: 0.055552
+[f=0018756] !transmitlobby w_update_dt: 0.04854601
+[f=0018757] !transmitlobby w_update_dt: 0.041539
+[f=0018759] !transmitlobby w_update_dt: 0.057053
+[f=0018761] !transmitlobby w_update_dt: 0.06956501
+[f=0018763] !transmitlobby w_update_dt: 0.064562
+[f=0018765] !transmitlobby w_update_dt: 0.063138
+[f=0018767] !transmitlobby w_update_dt: 0.069065
+[f=0018770] !transmitlobby w_update_dt: 0.090129
+[f=0018771] !transmitlobby w_update_dt: 0.045068
+[f=0018773] !transmitlobby w_update_dt: 0.055052
+[f=0018774] !transmitlobby w_update_dt: 0.041539
+[f=0018775] !transmitlobby w_update_dt: 0.040561
+[f=0018777] !transmitlobby w_update_dt: 0.052049
+[f=0018778] !transmitlobby w_update_dt: 0.04854601
+[f=0018780] !transmitlobby w_update_dt: 0.052049
+[f=0018781] !transmitlobby w_update_dt: 0.049546
+[f=0018784] !transmitlobby w_update_dt: 0.08107701
+[f=0018785] !transmitlobby w_update_dt: 0.045042
+[f=0018787] !transmitlobby w_update_dt: 0.067095
+[f=0018789] !transmitlobby w_update_dt: 0.06258401
+[f=0018791] !transmitlobby w_update_dt: 0.064073
+[f=0018793] !transmitlobby w_update_dt: 0.07558201
+[f=0018795] !transmitlobby w_update_dt: 0.059556
+[f=0018797] !transmitlobby w_update_dt: 0.069566
+[f=0018799] !transmitlobby w_update_dt: 0.067063
+[f=0018801] !transmitlobby w_update_dt: 0.07407001
+[f=0018805] !transmitlobby w_update_dt: 0.11961201
+[f=0018807] !transmitlobby w_update_dt: 0.067563
+[f=0018809] !transmitlobby w_update_dt: 0.065604
+[f=0018812] !transmitlobby w_update_dt: 0.09709101
+[f=0018813] !transmitlobby w_update_dt: 0.047545
+[f=0018815] !transmitlobby w_update_dt: 0.062059
+[f=0018817] !transmitlobby w_update_dt: 0.062058
+[f=0018818] !transmitlobby w_update_dt: 0.039049
+[f=0018820] !transmitlobby w_update_dt: 0.06356101
+[f=0018821] !transmitlobby w_update_dt: 0.038121
+[f=0018823] !transmitlobby w_update_dt: 0.05605301
+[f=0018826] !transmitlobby w_update_dt: 0.09913301
+[f=0018828] !transmitlobby w_update_dt: 0.079478
+[f=0018831] !transmitlobby w_update_dt: 0.08357801
+[f=0018833] !transmitlobby w_update_dt: 0.076072
+[f=0018835] !transmitlobby w_update_dt: 0.062058
+[f=0018836] !transmitlobby w_update_dt: 0.050548
+[f=0018838] !transmitlobby w_update_dt: 0.059056
+[f=0018840] !transmitlobby w_update_dt: 0.067099
+[f=0018844] !transmitlobby w_update_dt: 0.125118
+[f=0018848] !transmitlobby w_update_dt: 0.13212399
+[f=0018850] !transmitlobby w_update_dt: 0.068064
+[f=0018852] !transmitlobby w_update_dt: 0.07306901
+[f=0018854] !transmitlobby w_update_dt: 0.067063
+[f=0018858] !transmitlobby w_update_dt: 0.13613801
+[f=0018862] !transmitlobby w_update_dt: 0.122159
+[f=0018864] !transmitlobby w_update_dt: 0.065562
+[f=0018866] !transmitlobby w_update_dt: 0.061058
+[f=0018868] !transmitlobby w_update_dt: 0.06956501
+[f=0018869] !transmitlobby w_update_dt: 0.045042
+[f=0018871] !transmitlobby w_update_dt: 0.064561
+[f=0018873] !transmitlobby w_update_dt: 0.059556
+[f=0018874] !transmitlobby w_update_dt: 0.04204
+[f=0018876] !transmitlobby w_update_dt: 0.065061
+[f=0018878] !transmitlobby w_update_dt: 0.059055
+[f=0018880] !transmitlobby w_update_dt: 0.066062
+[f=0018881] !transmitlobby w_update_dt: 0.044542
+[f=0018883] !transmitlobby w_update_dt: 0.060558
+[f=0018885] !transmitlobby w_update_dt: 0.059055
+[f=0018886] !transmitlobby w_update_dt: 0.046544
+[f=0018888] !transmitlobby w_update_dt: 0.059556
+[f=0018889] !transmitlobby w_update_dt: 0.044041
+[f=0018891] !transmitlobby w_update_dt: 0.057054
+[f=0018892] !transmitlobby w_update_dt: 0.043556
+[f=0018894] !transmitlobby w_update_dt: 0.056552
+[f=0018896] !transmitlobby w_update_dt: 0.06356
+[f=0018898] !transmitlobby w_update_dt: 0.067095
+[f=0018899] !transmitlobby w_update_dt: 0.050067
+[f=0018901] !transmitlobby w_update_dt: 0.06055401
+[f=0018903] !transmitlobby w_update_dt: 0.064061
+[f=0018907] !transmitlobby w_update_dt: 0.12762001
+[f=0018911] !transmitlobby w_update_dt: 0.14400302
+[f=0018913] !transmitlobby w_update_dt: 0.067564
+[f=0018915] !transmitlobby w_update_dt: 0.060557
+[f=0018917] !transmitlobby w_update_dt: 0.062058
+[f=0018919] !transmitlobby w_update_dt: 0.06306001
+[f=0018920] !transmitlobby w_update_dt: 0.042039
+[f=0018921] !transmitlobby w_update_dt: 0.043627
+[f=0018923] !transmitlobby w_update_dt: 0.060556
+[f=0018925] !transmitlobby w_update_dt: 0.062058
+[f=0018927] !transmitlobby w_update_dt: 0.063059
+[f=0018929] !transmitlobby w_update_dt: 0.062559
+[f=0018930] !transmitlobby w_update_dt: 0.049547
+[f=0018934] !transmitlobby w_update_dt: 0.11661001
+[f=0018935] !transmitlobby w_update_dt: 0.048046
+[f=0018939] !transmitlobby w_update_dt: 0.12821402
+[f=0018942] !transmitlobby w_update_dt: 0.09809101
+[f=0018945] !transmitlobby w_update_dt: 0.093088
+[f=0018946] !transmitlobby w_update_dt: 0.046043
+[f=0018948] !transmitlobby w_update_dt: 0.056554
+[f=0018950] !transmitlobby w_update_dt: 0.062558
+[f=0018951] !transmitlobby w_update_dt: 0.04854601
+[f=0018953] !transmitlobby w_update_dt: 0.062058
+[f=0018955] !transmitlobby w_update_dt: 0.06656301
+[f=0018957] !transmitlobby w_update_dt: 0.057054
+[f=0018958] !transmitlobby w_update_dt: 0.050547
+[f=0018960] !transmitlobby w_update_dt: 0.055052
+[f=0018961] !transmitlobby w_update_dt: 0.047044
+[f=0018963] !transmitlobby w_update_dt: 0.056554
+[f=0018964] !transmitlobby w_update_dt: 0.043541
+[f=0018968] !transmitlobby w_update_dt: 0.124116
+[f=0018970] !transmitlobby w_update_dt: 0.065062
+[f=0018972] !transmitlobby w_update_dt: 0.061057
+[f=0018973] !transmitlobby w_update_dt: 0.044041
+[f=0018975] !transmitlobby w_update_dt: 0.070066
+[f=0018977] !transmitlobby w_update_dt: 0.059056
+[f=0018979] !transmitlobby w_update_dt: 0.075071
+[f=0018981] !transmitlobby w_update_dt: 0.06956501
+[f=0018985] !transmitlobby w_update_dt: 0.11861201
+[f=0018987] !transmitlobby w_update_dt: 0.065061
+[f=0018990] !transmitlobby w_update_dt: 0.09709101
+[f=0018992] !transmitlobby w_update_dt: 0.07356901
+[f=0018994] !transmitlobby w_update_dt: 0.068565
+[f=0018996] !transmitlobby w_update_dt: 0.07106701
+[f=0018998] !transmitlobby w_update_dt: 0.063059
+[f=0019000] !transmitlobby w_update_dt: 0.060557
+[f=0019001] !transmitlobby w_update_dt: 0.041038
+[f=0019003] !transmitlobby w_update_dt: 0.059056
+[f=0019005] !transmitlobby w_update_dt: 0.064561
+[f=0019006] !transmitlobby w_update_dt: 0.04254
+[f=0019007] !transmitlobby w_update_dt: 0.040538
+[f=0019009] !transmitlobby w_update_dt: 0.060557
+[f=0019011] !transmitlobby w_update_dt: 0.06356
+[f=0019013] !transmitlobby w_update_dt: 0.067563
+[f=0019014] !transmitlobby w_update_dt: 0.044042
+[f=0019017] !transmitlobby w_update_dt: 0.083078
+[f=0019018] !transmitlobby w_update_dt: 0.045543
+[f=0019021] !transmitlobby w_update_dt: 0.091586
+[f=0019023] !transmitlobby w_update_dt: 0.063059
+[f=0019025] !transmitlobby w_update_dt: 0.077573
+[f=0019028] !transmitlobby w_update_dt: 0.1041
+[f=0019031] !transmitlobby w_update_dt: 0.10009201
+[f=0019033] !transmitlobby w_update_dt: 0.06761
+[f=0019035] !transmitlobby w_update_dt: 0.065561
+[f=0019037] !transmitlobby w_update_dt: 0.052075
+[f=0019040] !transmitlobby w_update_dt: 0.09709101
+[f=0019041] !transmitlobby w_update_dt: 0.053065
+[f=0019044] !transmitlobby w_update_dt: 0.080076
+[f=0019045] !transmitlobby w_update_dt: 0.050058
+[f=0019047] !transmitlobby w_update_dt: 0.058555
+[f=0019048] !transmitlobby w_update_dt: 0.040038
+[f=0019050] !transmitlobby w_update_dt: 0.055052
+[f=0019052] !transmitlobby w_update_dt: 0.062058
+[f=0019055] !transmitlobby w_update_dt: 0.10009401
+[f=0019057] !transmitlobby w_update_dt: 0.068565
+[f=0019058] !transmitlobby w_update_dt: 0.048046
+[f=0019060] !transmitlobby w_update_dt: 0.059555
+[f=0019062] !transmitlobby w_update_dt: 0.059556
+[f=0019063] !transmitlobby w_update_dt: 0.044057
+[f=0019065] !transmitlobby w_update_dt: 0.062058
+[f=0019067] !transmitlobby w_update_dt: 0.06606401
+[f=0019068] !transmitlobby w_update_dt: 0.048044
+[f=0019070] !transmitlobby w_update_dt: 0.060071
+[f=0019072] !transmitlobby w_update_dt: 0.062059
+[f=0019074] !transmitlobby w_update_dt: 0.067063
+[f=0019076] !transmitlobby w_update_dt: 0.059556
+[f=0019077] !transmitlobby w_update_dt: 0.042039
+[f=0019078] !transmitlobby w_update_dt: 0.040059
+[f=0019080] !transmitlobby w_update_dt: 0.05255
+[f=0019082] !transmitlobby w_update_dt: 0.07457
+[f=0019084] !transmitlobby w_update_dt: 0.054051
+[f=0019085] !transmitlobby w_update_dt: 0.050548
+[f=0019087] !transmitlobby w_update_dt: 0.05405
+[f=0019089] !transmitlobby w_update_dt: 0.071568
+[f=0019092] !transmitlobby w_update_dt: 0.112143
+[f=0019096] !transmitlobby w_update_dt: 0.125117
+[f=0019098] !transmitlobby w_update_dt: 0.06956501
+[f=0019100] !transmitlobby w_update_dt: 0.06862201
+[f=0019102] !transmitlobby w_update_dt: 0.062059
+[f=0019104] !transmitlobby w_update_dt: 0.062058
+[f=0019106] !transmitlobby w_update_dt: 0.059556
+[f=0019108] !transmitlobby w_update_dt: 0.073088
+[f=0019111] !transmitlobby w_update_dt: 0.10159601
+[f=0019114] !transmitlobby w_update_dt: 0.09859201
+[f=0019116] !transmitlobby w_update_dt: 0.058055
+[f=0019118] !transmitlobby w_update_dt: 0.074087
+[f=0019120] !transmitlobby w_update_dt: 0.058054
+[f=0019121] !transmitlobby w_update_dt: 0.04964
+[f=0019123] !transmitlobby w_update_dt: 0.059556
+[f=0019124] !transmitlobby w_update_dt: 0.04254
+[f=0019126] !transmitlobby w_update_dt: 0.057554
+[f=0019128] !transmitlobby w_update_dt: 0.065602
+[f=0019130] !transmitlobby w_update_dt: 0.06759401
+[f=0019132] !transmitlobby w_update_dt: 0.064562
+[f=0019134] !transmitlobby w_update_dt: 0.063059
+[f=0019136] !transmitlobby w_update_dt: 0.069259
+[f=0019138] !transmitlobby w_update_dt: 0.069566
+[f=0019140] !transmitlobby w_update_dt: 0.074069
+[f=0019142] !transmitlobby w_update_dt: 0.074864
+[f=0019145] !transmitlobby w_update_dt: 0.09960701
+[f=0019148] !transmitlobby w_update_dt: 0.089584
+[f=0019151] !transmitlobby w_update_dt: 0.090085
+[f=0019153] !transmitlobby w_update_dt: 0.075571
+[f=0019156] !transmitlobby w_update_dt: 0.105599
+[f=0019160] !transmitlobby w_update_dt: 0.12718001
+[f=0019163] !transmitlobby w_update_dt: 0.10059201
+[f=0019165] !transmitlobby w_update_dt: 0.0736
+[f=0019167] !transmitlobby w_update_dt: 0.066071
+[f=0019169] !transmitlobby w_update_dt: 0.059568
+[f=0019171] !transmitlobby w_update_dt: 0.073089
+[f=0019173] !transmitlobby w_update_dt: 0.057053
+[f=0019175] !transmitlobby w_update_dt: 0.06406
+[f=0019176] !transmitlobby w_update_dt: 0.045543
+[f=0019178] !transmitlobby w_update_dt: 0.05355
+[f=0019180] !transmitlobby w_update_dt: 0.06308801
+[f=0019182] !transmitlobby w_update_dt: 0.07306901
+[f=0019184] !transmitlobby w_update_dt: 0.070066
+[f=0019186] !transmitlobby w_update_dt: 0.070567
+[f=0019189] !transmitlobby w_update_dt: 0.10209601
+[f=0019192] !transmitlobby w_update_dt: 0.10442901
+[f=0019194] !transmitlobby w_update_dt: 0.065125
+[f=0019196] !transmitlobby w_update_dt: 0.068064
+[f=0019198] !transmitlobby w_update_dt: 0.067062
+[f=0019201] !transmitlobby w_update_dt: 0.08958501
+[f=0019203] !transmitlobby w_update_dt: 0.06656301
+[f=0019206] !transmitlobby w_update_dt: 0.094589
+[f=0019209] !transmitlobby w_update_dt: 0.09909301
+[f=0019211] !transmitlobby w_update_dt: 0.06306001
+[f=0019213] !transmitlobby w_update_dt: 0.079074
+[f=0019215] !transmitlobby w_update_dt: 0.06308401
+[f=0019217] !transmitlobby w_update_dt: 0.064561
+[f=0019219] !transmitlobby w_update_dt: 0.068064
+[f=0019220] !transmitlobby w_update_dt: 0.039056
+[f=0019221] !transmitlobby w_update_dt: 0.038552
+[f=0019223] !transmitlobby w_update_dt: 0.060557
+[f=0019225] !transmitlobby w_update_dt: 0.064561
+[f=0019227] !transmitlobby w_update_dt: 0.062092
+[f=0019228] !transmitlobby w_update_dt: 0.047044
+[f=0019230] !transmitlobby w_update_dt: 0.06356
+[f=0019233] !transmitlobby w_update_dt: 0.08358
+[f=0019235] !transmitlobby w_update_dt: 0.07106501
+[f=0019237] !transmitlobby w_update_dt: 0.079075
+[f=0019239] !transmitlobby w_update_dt: 0.068566
+[f=0019241] !transmitlobby w_update_dt: 0.060556
+[f=0019243] !transmitlobby w_update_dt: 0.071568
+[f=0019245] !transmitlobby w_update_dt: 0.068064
+[f=0019247] !transmitlobby w_update_dt: 0.065562
+[f=0019249] !transmitlobby w_update_dt: 0.063059
+[f=0019251] !transmitlobby w_update_dt: 0.07056601
+[f=0019253] !transmitlobby w_update_dt: 0.06361601
+[f=0019255] !transmitlobby w_update_dt: 0.066562
+[f=0019257] !transmitlobby w_update_dt: 0.059056
+[f=0019258] !transmitlobby w_update_dt: 0.04254
+[f=0019260] !transmitlobby w_update_dt: 0.057053
+[f=0019262] !transmitlobby w_update_dt: 0.065062
+[f=0019264] !transmitlobby w_update_dt: 0.062397
+[f=0019265] !transmitlobby w_update_dt: 0.048045
+[f=0019267] !transmitlobby w_update_dt: 0.053588
+[f=0019268] !transmitlobby w_update_dt: 0.041539
+[f=0019269] !transmitlobby w_update_dt: 0.040538
+[f=0019272] !transmitlobby w_update_dt: 0.094088
+[f=0019275] !transmitlobby w_update_dt: 0.08958501
+[f=0019276] !transmitlobby w_update_dt: 0.052549
+[f=0019278] !transmitlobby w_update_dt: 0.06706401
+[f=0019281] !transmitlobby w_update_dt: 0.08109301
+[f=0019284] !transmitlobby w_update_dt: 0.11761101
+[f=0019287] !transmitlobby w_update_dt: 0.091102
+[f=0019289] !transmitlobby w_update_dt: 0.066062
+[f=0019291] !transmitlobby w_update_dt: 0.078073
+[f=0019296] !transmitlobby w_update_dt: 0.16415502
+[f=0019299] !transmitlobby w_update_dt: 0.09062301
+[f=0019301] !transmitlobby w_update_dt: 0.07457
+[f=0019303] !transmitlobby w_update_dt: 0.061058
+[f=0019305] !transmitlobby w_update_dt: 0.063059
+[f=0019307] !transmitlobby w_update_dt: 0.059556
+[f=0019310] !transmitlobby w_update_dt: 0.09509
+[f=0019311] !transmitlobby w_update_dt: 0.046543
+[f=0019312] !transmitlobby w_update_dt: 0.041072
+[f=0019314] !transmitlobby w_update_dt: 0.051549
+[f=0019315] !transmitlobby w_update_dt: 0.039537
+[f=0019316] !transmitlobby w_update_dt: 0.04254
+[f=0019318] !transmitlobby w_update_dt: 0.057554
+[f=0019319] !transmitlobby w_update_dt: 0.039037
+[f=0019324] !transmitlobby w_update_dt: 0.161652
+[f=0019326] !transmitlobby w_update_dt: 0.07156701
+[f=0019328] !transmitlobby w_update_dt: 0.073587
+[f=0019334] !transmitlobby w_update_dt: 0.20669502
+[f=0019337] !transmitlobby w_update_dt: 0.08762001
+[f=0019339] !transmitlobby w_update_dt: 0.061558
+[f=0019341] !transmitlobby w_update_dt: 0.066562
+[f=0019343] !transmitlobby w_update_dt: 0.068565
+[f=0019345] !transmitlobby w_update_dt: 0.071568
+[f=0019348] !transmitlobby w_update_dt: 0.09460801
+[f=0019351] !transmitlobby w_update_dt: 0.110603
+[f=0019355] !transmitlobby w_update_dt: 0.11761101
+[f=0019357] !transmitlobby w_update_dt: 0.066562
+[f=0019359] !transmitlobby w_update_dt: 0.06606301
+[f=0019361] !transmitlobby w_update_dt: 0.078573
+[f=0019364] !transmitlobby w_update_dt: 0.08359201
+[f=0019365] !transmitlobby w_update_dt: 0.057554
+[f=0019367] !transmitlobby w_update_dt: 0.06356
+[f=0019369] !transmitlobby w_update_dt: 0.060632
+[f=0019371] !transmitlobby w_update_dt: 0.063059
+[f=0019373] !transmitlobby w_update_dt: 0.062559
+[f=0019375] !transmitlobby w_update_dt: 0.066062
+[f=0019376] !transmitlobby w_update_dt: 0.044041
+[f=0019378] !transmitlobby w_update_dt: 0.060057
+[f=0019380] !transmitlobby w_update_dt: 0.068064
+[f=0019383] !transmitlobby w_update_dt: 0.09759201
+[f=0019385] !transmitlobby w_update_dt: 0.07256801
+[f=0019390] !transmitlobby w_update_dt: 0.21270001
+[f=0019396] !transmitlobby w_update_dt: 0.148881
+[f=0019399] !transmitlobby w_update_dt: 0.099594
+[f=0019402] !transmitlobby w_update_dt: 0.11526901
+[f=0019406] !transmitlobby w_update_dt: 0.11660901
+[f=0019408] !transmitlobby w_update_dt: 0.06956501
+[f=0019410] !transmitlobby w_update_dt: 0.065562
+[f=0019412] !transmitlobby w_update_dt: 0.068064
+[f=0019414] !transmitlobby w_update_dt: 0.060621
+[f=0019415] !transmitlobby w_update_dt: 0.051548
+[f=0019417] !transmitlobby w_update_dt: 0.060056
+[f=0019419] !transmitlobby w_update_dt: 0.061058
+[f=0019422] !transmitlobby w_update_dt: 0.09709101
+[f=0019425] !transmitlobby w_update_dt: 0.09659101
+[f=0019427] !transmitlobby w_update_dt: 0.06356
+[f=0019428] !transmitlobby w_update_dt: 0.050047
+[f=0019430] !transmitlobby w_update_dt: 0.061058
+[f=0019432] !transmitlobby w_update_dt: 0.062144
+[f=0019434] !transmitlobby w_update_dt: 0.07056401
+[f=0019436] !transmitlobby w_update_dt: 0.068064
+[f=0019439] !transmitlobby w_update_dt: 0.092087
+[f=0019441] !transmitlobby w_update_dt: 0.076572
+[f=0019443] !transmitlobby w_update_dt: 0.07106701
+[f=0019446] !transmitlobby w_update_dt: 0.084079
+[f=0019447] !transmitlobby w_update_dt: 0.050047
+[f=0019450] !transmitlobby w_update_dt: 0.09611101
+[f=0019452] !transmitlobby w_update_dt: 0.06706401
+[f=0019455] !transmitlobby w_update_dt: 0.101475
+[f=0019457] !transmitlobby w_update_dt: 0.061556
+[f=0019459] !transmitlobby w_update_dt: 0.057053
+[f=0019461] !transmitlobby w_update_dt: 0.082279
+[f=0019464] !transmitlobby w_update_dt: 0.08708201
+[f=0019466] !transmitlobby w_update_dt: 0.070568
+[f=0019469] !transmitlobby w_update_dt: 0.100595
+[f=0019471] !transmitlobby w_update_dt: 0.07256701
+[f=0019473] !transmitlobby w_update_dt: 0.07106701
+[f=0019476] !transmitlobby w_update_dt: 0.092587
+[f=0019478] !transmitlobby w_update_dt: 0.067563
+[f=0019480] !transmitlobby w_update_dt: 0.062059
+[f=0019482] !transmitlobby w_update_dt: 0.068064
+[f=0019483] !transmitlobby w_update_dt: 0.044042
+[f=0019485] !transmitlobby w_update_dt: 0.063058
+[f=0019487] !transmitlobby w_update_dt: 0.064561
+[f=0019490] !transmitlobby w_update_dt: 0.09509
+[f=0019492] !transmitlobby w_update_dt: 0.07557
+[f=0019495] !transmitlobby w_update_dt: 0.08908401
+[f=0019497] !transmitlobby w_update_dt: 0.07407001
+[f=0019499] !transmitlobby w_update_dt: 0.054051
+[f=0019501] !transmitlobby w_update_dt: 0.074069
+[f=0019503] !transmitlobby w_update_dt: 0.070567
+[f=0019505] !transmitlobby w_update_dt: 0.055553
+[f=0019506] !transmitlobby w_update_dt: 0.048046
+[f=0019508] !transmitlobby w_update_dt: 0.05405
+[f=0019509] !transmitlobby w_update_dt: 0.041038
+[f=0019511] !transmitlobby w_update_dt: 0.057554
+[f=0019512] !transmitlobby w_update_dt: 0.050047
+[f=0019514] !transmitlobby w_update_dt: 0.060558
+[f=0019516] !transmitlobby w_update_dt: 0.07006501
+[f=0019518] !transmitlobby w_update_dt: 0.072131
+[f=0019521] !transmitlobby w_update_dt: 0.088084
+[f=0019523] !transmitlobby w_update_dt: 0.067563
+[f=0019525] !transmitlobby w_update_dt: 0.06956501
+[f=0019527] !transmitlobby w_update_dt: 0.069094
+[f=0019529] !transmitlobby w_update_dt: 0.064561
+[f=0019532] !transmitlobby w_update_dt: 0.090085
+[f=0019534] !transmitlobby w_update_dt: 0.069065
+[f=0019536] !transmitlobby w_update_dt: 0.06306001
+[f=0019537] !transmitlobby w_update_dt: 0.045576
+[f=0019539] !transmitlobby w_update_dt: 0.055051
+[f=0019541] !transmitlobby w_update_dt: 0.08257901
+[f=0019543] !transmitlobby w_update_dt: 0.065561
+[f=0019545] !transmitlobby w_update_dt: 0.061058
+[f=0019547] !transmitlobby w_update_dt: 0.054551
+[f=0019548] !transmitlobby w_update_dt: 0.043542
+[f=0019550] !transmitlobby w_update_dt: 0.067562
+[f=0019552] !transmitlobby w_update_dt: 0.06306101
+[f=0019555] !transmitlobby w_update_dt: 0.09712101
+[f=0019558] !transmitlobby w_update_dt: 0.10159601
+[f=0019560] !transmitlobby w_update_dt: 0.079575
+[f=0019564] !transmitlobby w_update_dt: 0.126854
+[f=0019566] !transmitlobby w_update_dt: 0.065561
+[f=0019568] !transmitlobby w_update_dt: 0.06856401
+[f=0019570] !transmitlobby w_update_dt: 0.076072
+[f=0019572] !transmitlobby w_update_dt: 0.064062
+[f=0019574] !transmitlobby w_update_dt: 0.06906401
+[f=0019576] !transmitlobby w_update_dt: 0.06406
+[f=0019578] !transmitlobby w_update_dt: 0.058118
+[f=0019579] !transmitlobby w_update_dt: 0.043042
+[f=0019581] !transmitlobby w_update_dt: 0.06305701
+[f=0019584] !transmitlobby w_update_dt: 0.09158801
+[f=0019586] !transmitlobby w_update_dt: 0.07630001
+[f=0019588] !transmitlobby w_update_dt: 0.066062
+[f=0019590] !transmitlobby w_update_dt: 0.065061
+[f=0019592] !transmitlobby w_update_dt: 0.070066
+[f=0019595] !transmitlobby w_update_dt: 0.080075
+[f=0019597] !transmitlobby w_update_dt: 0.06856401
+[f=0019599] !transmitlobby w_update_dt: 0.064061
+[f=0019600] !transmitlobby w_update_dt: 0.048045
+[f=0019602] !transmitlobby w_update_dt: 0.065061
+[f=0019604] !transmitlobby w_update_dt: 0.064561
+[f=0019606] !transmitlobby w_update_dt: 0.066062
+[f=0019609] !transmitlobby w_update_dt: 0.103599
+[f=0019612] !transmitlobby w_update_dt: 0.09909201
+[f=0019614] !transmitlobby w_update_dt: 0.06956501
+[f=0019616] !transmitlobby w_update_dt: 0.068064
+[f=0019618] !transmitlobby w_update_dt: 0.067564
+[f=0019620] !transmitlobby w_update_dt: 0.069065
+[f=0019623] !transmitlobby w_update_dt: 0.084079
+[f=0019627] !transmitlobby w_update_dt: 0.141633
+[f=0019631] !transmitlobby w_update_dt: 0.13212501
+[f=0019635] !transmitlobby w_update_dt: 0.13662802
+[f=0019638] !transmitlobby w_update_dt: 0.10009401
+[f=0019643] !transmitlobby w_update_dt: 0.166657
+[f=0019645] !transmitlobby w_update_dt: 0.07106701
+[f=0019647] !transmitlobby w_update_dt: 0.067564
+[f=0019649] !transmitlobby w_update_dt: 0.060056
+[f=0019651] !transmitlobby w_update_dt: 0.06434
+[f=0019653] !transmitlobby w_update_dt: 0.057054
+[f=0019654] !transmitlobby w_update_dt: 0.045543
+[f=0019656] !transmitlobby w_update_dt: 0.059055
+[f=0019657] !transmitlobby w_update_dt: 0.047545
+[f=0019659] !transmitlobby w_update_dt: 0.060608
+[f=0019662] !transmitlobby w_update_dt: 0.08808301
+[f=0019665] !transmitlobby w_update_dt: 0.107601
+[f=0019668] !transmitlobby w_update_dt: 0.09659101
+[f=0019670] !transmitlobby w_update_dt: 0.077073
+[f=0019673] !transmitlobby w_update_dt: 0.08858301
+[f=0019674] !transmitlobby w_update_dt: 0.04854601
+[f=0019676] !transmitlobby w_update_dt: 0.062558
+[f=0019677] !transmitlobby w_update_dt: 0.047045
+[f=0019679] !transmitlobby w_update_dt: 0.06456
+[f=0019682] !transmitlobby w_update_dt: 0.099636
+[f=0019684] !transmitlobby w_update_dt: 0.07457
+[f=0019687] !transmitlobby w_update_dt: 0.10560001
+[f=0019691] !transmitlobby w_update_dt: 0.13462602
+[f=0019694] !transmitlobby w_update_dt: 0.11816401
+[f=0019697] !transmitlobby w_update_dt: 0.08458
+[f=0019699] !transmitlobby w_update_dt: 0.07356901
+[f=0019700] !transmitlobby w_update_dt: 0.051549
+[f=0019702] !transmitlobby w_update_dt: 0.061057
+[f=0019704] !transmitlobby w_update_dt: 0.068565
+[f=0019705] !transmitlobby w_update_dt: 0.046544
+[f=0019707] !transmitlobby w_update_dt: 0.05908
+[f=0019708] !transmitlobby w_update_dt: 0.046044
+[f=0019709] !transmitlobby w_update_dt: 0.040538
+[f=0019712] !transmitlobby w_update_dt: 0.10509901
+[f=0019715] !transmitlobby w_update_dt: 0.09909501
+[f=0019717] !transmitlobby w_update_dt: 0.072066
+[f=0019718] !transmitlobby w_update_dt: 0.045042
+[f=0019720] !transmitlobby w_update_dt: 0.0576
+[f=0019721] !transmitlobby w_update_dt: 0.041039
+[f=0019723] !transmitlobby w_update_dt: 0.057555
+[f=0019724] !transmitlobby w_update_dt: 0.044541
+[f=0019725] !transmitlobby w_update_dt: 0.045544
+[f=0019728] !transmitlobby w_update_dt: 0.101638
+[f=0019732] !transmitlobby w_update_dt: 0.13712901
+[f=0019734] !transmitlobby w_update_dt: 0.066062
+[f=0019737] !transmitlobby w_update_dt: 0.108103
+[f=0019740] !transmitlobby w_update_dt: 0.09709101
+[f=0019742] !transmitlobby w_update_dt: 0.068064
+[f=0019745] !transmitlobby w_update_dt: 0.120112
+[f=0019749] !transmitlobby w_update_dt: 0.12011301
+[f=0019751] !transmitlobby w_update_dt: 0.085581
+[f=0019753] !transmitlobby w_update_dt: 0.060057
+[f=0019755] !transmitlobby w_update_dt: 0.069066
+[f=0019757] !transmitlobby w_update_dt: 0.063558
+[f=0019758] !transmitlobby w_update_dt: 0.051048
+[f=0019760] !transmitlobby w_update_dt: 0.067564
+[f=0019762] !transmitlobby w_update_dt: 0.065103
+[f=0019765] !transmitlobby w_update_dt: 0.10209601
+[f=0019768] !transmitlobby w_update_dt: 0.109603
+[f=0019770] !transmitlobby w_update_dt: 0.077073
+[f=0019773] !transmitlobby w_update_dt: 0.08858301
+[f=0019775] !transmitlobby w_update_dt: 0.068064
+[f=0019777] !transmitlobby w_update_dt: 0.07106701
+[f=0019779] !transmitlobby w_update_dt: 0.06859601
+[f=0019782] !transmitlobby w_update_dt: 0.107601
+[f=0019785] !transmitlobby w_update_dt: 0.10605401
+[f=0019787] !transmitlobby w_update_dt: 0.07407001
+[f=0019790] !transmitlobby w_update_dt: 0.10459801
+[f=0019793] !transmitlobby w_update_dt: 0.092087
+[f=0019795] !transmitlobby w_update_dt: 0.062559
+[f=0019797] !transmitlobby w_update_dt: 0.07457
+[f=0019798] !transmitlobby w_update_dt: 0.043541
+[f=0019803]                                Part|        Total Time|Time of the last 0.5s
+[f=0019803]                                Draw        106054.42ms 36.28%
+[f=0019803]                                 Lua        148645.12ms 42.87%
+[f=0019803]             Misc::Profiler::AddTime           462.88ms  0.00%
+[f=0019803]                                 Sim        183165.22ms 52.47%
+[f=0019803] debug-info rendering mode is enabled!
+[f=0019954] !transmitlobby fps_0_2.5: 0
+[f=0019954] !transmitlobby fps_2.5_5: 2
+[f=0019954] !transmitlobby fps_5_7.5: 12
+[f=0019954] !transmitlobby fps_7.5_10: 58
+[f=0019954] !transmitlobby fps_10_12.5: 99
+[f=0019954] !transmitlobby fps_12.5_15: 184
+[f=0019954] !transmitlobby fps_15_17.5: 249
+[f=0019954] !transmitlobby fps_17.5_20: 111
+[f=0019954] !transmitlobby fps_20_22.5: 78
+[f=0019954] !transmitlobby fps_22.5_25: 82
+[f=0019954] !transmitlobby fps_25_27.5: 21
+[f=0019954] !transmitlobby fps_27.5_30: 0
+[f=0019954] !transmitlobby fps_30_32.5: 0
+[f=0019954] !transmitlobby fps_32.5_35: 0
+[f=0019954] !transmitlobby fps_35_37.5: 0
+[f=0019954] !transmitlobby fps_37.5_40: 0
+[f=0019954] !transmitlobby fps_40_42.5: 0
+[f=0019954] !transmitlobby fps_42.5_45: 0
+[f=0019954] !transmitlobby fps_45_47.5: 0
+[f=0019954] !transmitlobby fps_47.5_50: 0
+[f=0019954] !transmitlobby fps_over_60: 0
+[f=0019954] !transmitlobby speedy_fps_0_2.5: 0
+[f=0019954] !transmitlobby speedy_fps_2.5_5: 7
+[f=0019954] !transmitlobby speedy_fps_5_7.5: 145
+[f=0019954] !transmitlobby speedy_fps_7.5_10: 239
+[f=0019954] !transmitlobby speedy_fps_10_12.5: 384
+[f=0019954] !transmitlobby speedy_fps_12.5_15: 398
+[f=0019954] !transmitlobby speedy_fps_15_17.5: 356
+[f=0019954] !transmitlobby speedy_fps_17.5_20: 373
+[f=0019954] !transmitlobby speedy_fps_20_22.5: 355
+[f=0019954] !transmitlobby speedy_fps_22.5_25: 294
+[f=0019954] !transmitlobby speedy_fps_25_27.5: 221
+[f=0019954] !transmitlobby speedy_fps_27.5_30: 171
+[f=0019954] !transmitlobby speedy_fps_30_32.5: 108
+[f=0019954] !transmitlobby speedy_fps_32.5_35: 66
+[f=0019954] !transmitlobby speedy_fps_35_37.5: 71
+[f=0019954] !transmitlobby speedy_fps_37.5_40: 50
+[f=0019954] !transmitlobby speedy_fps_40_42.5: 24
+[f=0019954] !transmitlobby speedy_fps_42.5_45: 32
+[f=0019954] !transmitlobby speedy_fps_45_47.5: 18
+[f=0019954] !transmitlobby speedy_fps_47.5_50: 27
+[f=0019954] !transmitlobby speedy_fps_over_50: 82
+[f=0019954] !transmitlobby units_end: 746
+[f=0019954] [QuitAction] user exited to system
+[f=0019954] [SpringApp::Kill][1] fromRun=1
+[f=0019954] [ThreadPool::SetThreadCount][1] wanted=0 current=3 maximum=6 (init=0)
+[f=0019954] 	[async=0] threads=3 tasks=250392 {sum,avg}{exec,wait}time={{2.000, 0.000}, {26815622218671137256731743039284427385526806187491255175463597715345963835545219910874065684174817324979074846209248610063447802387217900272557975456972800.000, -0.000}}ms
+[f=0019954] 		thread=1 tasks=125196 {sum,min,max,avg}{exec,wait}time={{26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 0.000, 0.000, -2.000}, {-2.000, 0.000, 26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 26815622250098230674276075971923119957964864267295633934145007411620056973153482818560385003978905149563396619004301726087593371982315895682075169774370816.000}}ms
+[f=0019954] 		thread=2 tasks=125196 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 26815622298572134447701380436933383543684579782592911233182029178154352804647729475635775521319483301068326741141256527628880634078727751036507200998604800.000}, {-2.000, 0.000, -26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -2.000}}ms
+[f=0019954] 	[async=1] threads=3 tasks=936 {sum,avg}{exec,wait}time={{0.000, -2.000}, {-0.000, 2.000}}ms
+[f=0019954] 		thread=1 tasks=454 {sum,min,max,avg}{exec,wait}time={{-2.000, 0.000, 26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 0.000}, {-0.000, 0.000, -26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -26815622285474858077735023465608775309807686004858180209930351098408312405536801761898896197358662228136463101527533097833789550872353671601121613479673856.000}}ms
+[f=0019954] 		thread=2 tasks=482 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, -0.000, 2.000}, {-26815622235824534871522334049755748864221609584820407178328070657057601177438126915223411815270293551922074647912699791075440225701465518405024195564011520.000, 0.000, -26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -26815622285474858077735023465608775309807686004858180209930351098408312405536801761898896197358662228136463101527533097833789550872353671601121613479673856.000}}ms
+[f=0019954] [ThreadPool::SetThreadCount][2] workers=0
+[f=0019954] [SpringApp::Kill][2]
+[f=0019954] [Game::KillLua][0] dtor=0 loadscreen=00000000
+[f=0019954] [Game::KillLua][3] dtor=0 luaUI=2995ada0
+[f=0019954] Start widgetHandler:Shutdown
+[f=0019954] Shutdown - SaveOrderList Complete
+[f=0019954] Writing last game win data
+[f=0019954] Shutdown - SaveConfigData Complete
+[f=0019954] Shutdown Widget - Chili Highlight
+[f=0019954] Shutdown Widget - Deferred rendering
+[f=0019954] Shutdown Widget - EPIC Menu
+[f=0019954] Shutdown Widget - Custom Markers
+[f=0019954] Shutdown Widget - Chili Minimap
+[f=0019954] Shutdown Widget - Chili Widget Selector
+[f=0019954] Shutdown Widget - Local Team Colors
+[f=0019954] Shutdown Widget - Display Keys 2
+[f=0019954] Shutdown Widget - Save Game Menu
+[f=0019954] Shutdown Widget - HealthBars
+[f=0019954] Shutdown Widget - Noises
+[f=0019954] Shutdown Widget - Unit Icons
+[f=0019954] Shutdown Widget - Win Counter
+[f=0019954] Shutdown Widget - BuildETA
+[f=0019954] Shutdown Widget - Depth of Field Shader
+[f=0019954] Shutdown Widget - Modular Comm Info
+[f=0019954] Shutdown Widget - CameraShake
+[f=0019954] Shutdown Widget - Chili Economy Panel Default
+[f=0019954] Shutdown Widget - Chili EndGame Window
+[f=0019954] Shutdown Widget - Chili Nuke Warning
+[f=0019954] Shutdown Widget - Chili Spectator Panels
+[f=0019954] Shutdown Widget - Context Menu
+[f=0019954] Shutdown Widget - Darkening
+[f=0019954] Shutdown Widget - Grab Input
+[f=0019954] Input grabbing is disabled!
+[f=0019954] Shutdown Widget - Highlight Geos
+[f=0019954] Shutdown Widget - Local Widgets Config
+[f=0019954] Shutdown Widget - Mex Placement Handler
+[f=0019954] Shutdown Widget - MinimapEvents
+[f=0019954] Shutdown Widget - Missile Silo Range
+[f=0019954] Shutdown Widget - Morph Finished notification
+[f=0019954] Shutdown Widget - Music Player
+[f=0019954] Shutdown Widget - Point Tracker
+[f=0019954] Shutdown Widget - Showeco and Grid Drawer
+[f=0019954] Shutdown Widget - Stereo3D
+[f=0019954] Shutdown Widget - Chili Selections & CursorTip v2
+[f=0019954] Shutdown Widget - Attack AoE
+[f=0019954] Shutdown Widget - UnitShapes
+[f=0019954] Shutdown Widget - Map Edge Extension
+[f=0019954] Shutdown Widget - Selection Send
+[f=0019954] Shutdown Widget - LupsManager
+[f=0019954] Shutdown Widget - Newton Firezone
+[f=0019954] Shutdown Widget - Chili Crude Player List
+[f=0019954] Shutdown Widget - Chili Pro Console
+[f=0019954] Shutdown Widget - Lasso Terraform GUI
+[f=0019954] Shutdown Widget - Chili Framework
+[f=0019954] Shutdown Widget - Lups
+[f=0019954] Shutdown Widget - Chili Core Selector
+[f=0019954] Shutdown Widget - Pause Screen
+[f=0019954] Shutdown Widget - Color Blindness Correction
+[f=0019954] Shutdown Widget - Layout Handler
+[f=0019954] Shutdown Widget - Persistent Build Height
+[f=0019954] Shutdown Widget - Text To Speech Control
+[f=0019954] End widgetHandler:Shutdown
+[f=0019954] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,44184664,0} {chunk,block}Bytes={0,0}
+[f=0019954] [Game::KillLua][1] dtor=0 luaGaia=00000000
+[f=0019954] [Game::KillLua][2] dtor=0 luaRules=2a53c010
+[f=0019954] Start gadgetHandler:Shutdown
+[f=0019954] Shutdown - StartSetup
+[f=0019954] Shutdown - UnitMorph
+[f=0019954] Shutdown - CAI
+[f=0019954] Shutdown - LupsNanoSpray
+[f=0019954] Shutdown - Missile Silo Controller
+[f=0019954] Shutdown - Modular Comm Info
+[f=0019954] Shutdown - Puppy Handler
+[f=0019954] Shutdown - Terrain Texture Handler
+[f=0019954] Shutdown - UnitCloakShield
+[f=0019954] End gadgetHandler:Shutdown
+[f=0019954] Start gadgetHandler:Shutdown
+[f=0019954] Shutdown - UnitMorph
+[f=0019954] Shutdown - Modular Comm Info
+[f=0019954] Shutdown - Shockwaves
+[f=0019954] Shutdown - Teleport Throw
+[f=0019954] Shutdown - UnitCloakShield
+[f=0019954] Shutdown - Lups Cloak FX
+[f=0019954] Shutdown - Lups
+[f=0019954] End gadgetHandler:Shutdown
+[f=0019954] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,44184710,0} {chunk,block}Bytes={0,0}
+[f=0019954] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,44184710,0} {chunk,block}Bytes={0,0}
+[f=0019954] [Game::KillLua][4] dtor=0
+[f=0019954] [WriteDemoFile] writing client-demo "E:\Users\Tim\Documents\My Games\Spring\Benchmarks\Configs\Chobby_default\demos\20180406_074018_Comet Catcher Redux_104.0.1-308-g17ff6c0 maintenance.sdfz" (203779 bytes)
+[f=0019954] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=0019954] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=0019954] [Sound] [Sound::UpdateThread][3] #sources=32 #items=43
+[f=0019954] [Sound] [Sound::UpdateThread][4] ctx=08917250 dev=08a2abf0
+[f=0019954] [Sound] [Sound::UpdateThread][5] ctx=08917250 dev=08a2abf0
+[f=0019954] [Sound] [Sound::UpdateThread][6]
+[f=0019954] [Game::~CGame][1]
+[f=0019954] [Game::KillLua][0] dtor=1 loadscreen=00000000
+[f=0019954] [Game::KillLua][3] dtor=1 luaUI=00000000
+[f=0019954] [Game::KillLua][1] dtor=1 luaGaia=00000000
+[f=0019954] [Game::KillLua][2] dtor=1 luaRules=00000000
+[f=0019954] [Game::KillLua][4] dtor=1
+[f=0019954] [Game::KillMisc][1]
+[f=0019954] [Game::KillMisc][2]
+[f=0019954] [Game::KillMisc][3]
+[f=0019954] [Game::KillRendering][1]
+[f=0019954] [Game::KillInterface][1]
+[f=0019954] [Game::KillInterface][2]
+[f=0019954] [Game::KillSimulation][1]
+[f=0019954] [Game::KillSimulation][2]
+[f=0019954] [CCollisionHandler] dis-/continuous tests: 514/1722145
+[f=0019954] [Game::KillSimulation][3]
+[f=0019954] [~CPathCache(24x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0019954] [~CPathCache(24x32)] cacheHits=3510 hitPercentage=17% numHashColls=0 maxCacheSize=201
+[f=0019954] [~CPathCache(48x64)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0019954] [~CPathCache(48x64)] cacheHits=14677 hitPercentage=1% numHashColls=0 maxCacheSize=201
+[f=0019954] Statistics for RectangleOptimizer: 5%
+[f=0019954] Statistics for RectangleOptimizer: 5%
+[f=0019954] LosHandler stats: total instances=147088; shared=1%; from cache=14%
+[f=0019954] [Game::KillSimulation][4]
+[f=0019954] [Game::~CGame][2]
+[f=0019954] [Game::~CGame][3]
+[f=0019954] [SpringApp::Kill][3]
+[f=0019954] [LocalConnection::Statistics]
+	33884 bytes sent  
+	209028 bytes recv'd
+
+[f=0019954] [SpringApp::Kill][4] font=0836abb0
+[f=0019954] [SpringApp::Kill][5]
+[f=0019954] [SpringApp::Kill][6]
+[SpringApp::Kill][7]
+[LuaSocket] Dumping luasocket rules:
+[LuaSocket] TCP_CONNECT ALLOW * -1
+[LuaSocket] TCP_LISTEN  ALLOW * -1
+[LuaSocket] UDP_LISTEN  ALLOW * -1
+[~CPoolArchive] name="C:\Users\Tim\Documents\My Games\Spring\packages\f5c7e9e96024b98267a7351a42d77c22.sdp" numZipFiles=7543 sumInflSize=622964kb sumReadTime=2293ms
+	file="sounds/music/war/morning adventure.ogg" indx=5812 inflSize=6536kb readTime=54ms
+	file="unittextures/detriment_1.dds" indx=6889 inflSize=5461kb readTime=41ms
+	file="unittextures/gritty1.dds" indx=6939 inflSize=5461kb readTime=40ms
+	file="unittextures/benzcom_1.dds" indx=6757 inflSize=5461kb readTime=40ms
+	file="unittextures/bantha_1.dds" indx=6741 inflSize=5461kb readTime=35ms
+	file="unittextures/gritty2.dds" indx=6940 inflSize=5461kb readTime=32ms
+	file="unittextures/zeppelin_1.dds" indx=7521 inflSize=4096kb readTime=29ms
+	file="unittextures/largetransport1.dds" indx=6963 inflSize=5461kb readTime=28ms
+	file="unittextures/benzcom_normals.dds" indx=6760 inflSize=4096kb readTime=27ms
+	file="unittextures/starlight.dds" indx=7122 inflSize=4096kb readTime=23ms
+[SpringApp::Kill][8]
+[WatchDog::DeregisterThread] deregistering controls for thread [main]
+[WatchDog::Uninstall][1] hangDetectorThread=00fdc3f0 (joinable=0)
+[SpringApp::Kill][9]

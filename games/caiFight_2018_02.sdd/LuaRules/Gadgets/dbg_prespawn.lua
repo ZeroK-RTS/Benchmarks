@@ -41,4 +41,10 @@ function gadget:GameFrame(f)
 			end
 		end
 	end
+	if f == 30 then
+		local units = Spring.GetAllUnits()
+		for i = 1, #units do
+			Spring.SetUnitRulesParam(units[i],"facplop",0)
+		end
+	end
 end
