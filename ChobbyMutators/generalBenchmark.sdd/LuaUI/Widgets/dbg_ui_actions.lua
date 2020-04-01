@@ -21,8 +21,8 @@ local haveSelected = false
 
 local allUnits
 
-local CAMERA_GAP = 3*30
-local cameraFrame = 5*30 + CAMERA_GAP/2
+local CAMERA_GAP = 1.5*30
+local cameraFrame = 3*30 + CAMERA_GAP/2
 local cameraPos = 1
 local cameraTable = {
 	3019, 3199, 3065, 2843, 2809, 2988, 2971, 3000, 3103, 2871, 2812, 2895, 3110, 2968, 2888,
