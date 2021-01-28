@@ -113,7 +113,6 @@ function widget:Update(dt)
 			mode = 1,
 		}, 0)
 		
-		Spring.SendCommands("maptesselusethreads 0 0")
 		Spring.SendCommands({"specteam 1"})
 		Spring.WarpMouse(60, 100)
 		
