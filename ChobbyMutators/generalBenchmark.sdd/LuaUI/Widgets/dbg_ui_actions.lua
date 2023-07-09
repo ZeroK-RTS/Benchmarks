@@ -110,6 +110,7 @@ function widget:Update(dt)
 			Spring.SelectUnitArray(toSelect)
 		end
 		haveSelected = not haveSelected
+		WG.ToggleShoweco()
 	end
 end
 

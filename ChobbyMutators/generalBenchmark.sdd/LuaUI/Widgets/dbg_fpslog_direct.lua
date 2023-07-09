@@ -83,8 +83,10 @@ local function ProcessAndWriteData()
 	output = output .. "," .. #units
 	
 	local dataFile = io.open(dataFilePath, "a")
-	dataFile:write(output)
-	dataFile:close()
+	if dataFile then
+		dataFile:write(output)
+		dataFile:close()
+	end
 end
 
 --------------------------------------------------------------------------------
